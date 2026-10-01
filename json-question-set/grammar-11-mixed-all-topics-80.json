@@ -1,0 +1,962 @@
+[
+ {
+  "q": "Yesterday, I ___ to the market.",
+  "options": [
+   "went",
+   "going",
+   "go",
+   "gone"
+  ],
+  "answer": 0,
+  "difficulty": "easy",
+  "explanation": "Past tense of 'go'."
+ },
+ {
+  "q": "She ___ her homework now.",
+  "options": [
+   "is doing",
+   "done",
+   "do",
+   "did"
+  ],
+  "answer": 0,
+  "difficulty": "easy",
+  "explanation": "Present continuous for 'now'."
+ },
+ {
+  "q": "The cats ___ sleeping.",
+  "options": [
+   "was",
+   "is",
+   "are",
+   "am"
+  ],
+  "answer": 2,
+  "difficulty": "easy",
+  "explanation": "Plural subject."
+ },
+ {
+  "q": "Tom and Ravi ___ friends.",
+  "options": [
+   "has",
+   "are",
+   "was",
+   "is"
+  ],
+  "answer": 1,
+  "difficulty": "easy",
+  "explanation": "Two subjects joined by 'and'."
+ },
+ {
+  "q": "Which sentence is punctuated correctly?",
+  "options": [
+   "What a lovely day?",
+   "What a lovely day,",
+   "What a lovely day!",
+   "What a lovely day;"
+  ],
+  "answer": 2,
+  "difficulty": "easy",
+  "explanation": "Exclamations end with !"
+ },
+ {
+  "q": "Which is capitalised correctly?",
+  "options": [
+   "Dr. Rao lives in delhi.",
+   "dr. rao lives in delhi.",
+   "Dr. rao lives in Delhi.",
+   "Dr. Rao lives in Delhi."
+  ],
+  "answer": 3,
+  "difficulty": "easy",
+  "explanation": "Capitalise titles and places."
+ },
+ {
+  "q": "___ are going to the park.",
+  "options": [
+   "Ours",
+   "Our",
+   "We",
+   "Us"
+  ],
+  "answer": 2,
+  "difficulty": "easy",
+  "explanation": "Subject pronoun."
+ },
+ {
+  "q": "The bag is ___.",
+  "options": [
+   "herself",
+   "hers",
+   "her's",
+   "she"
+  ],
+  "answer": 1,
+  "difficulty": "easy",
+  "explanation": "Possessive pronoun, no apostrophe."
+ },
+ {
+  "q": "I have ___ umbrella.",
+  "options": [
+   "an",
+   "two",
+   "many",
+   "a"
+  ],
+  "answer": 0,
+  "difficulty": "easy",
+  "explanation": "Vowel sound takes 'an'."
+ },
+ {
+  "q": "The cat is ___ the box.",
+  "options": [
+   "of",
+   "with",
+   "from",
+   "in"
+  ],
+  "answer": 3,
+  "difficulty": "easy",
+  "explanation": "'In' shows location inside."
+ },
+ {
+  "q": "My brother is ___ than me.",
+  "options": [
+   "oldest",
+   "most old",
+   "more old",
+   "older"
+  ],
+  "answer": 3,
+  "difficulty": "easy",
+  "explanation": "Comparative."
+ },
+ {
+  "q": "She speaks ___.",
+  "options": [
+   "quietly",
+   "quieten",
+   "quietness",
+   "quiet"
+  ],
+  "answer": 0,
+  "difficulty": "easy",
+  "explanation": "Adverb modifies the verb."
+ },
+ {
+  "q": "Which is a complete sentence?",
+  "options": [
+   "In the tree",
+   "Birds sing.",
+   "Singing birds",
+   "Because birds"
+  ],
+  "answer": 1,
+  "difficulty": "easy",
+  "explanation": "Subject + verb."
+ },
+ {
+  "q": "In 'Raj kicked the ball', the verb is ___.",
+  "options": [
+   "the",
+   "kicked",
+   "Raj",
+   "ball"
+  ],
+  "answer": 1,
+  "difficulty": "easy",
+  "explanation": "The action word."
+ },
+ {
+  "q": "The cake ___ by Mum.",
+  "options": [
+   "was baked",
+   "was bake",
+   "is bake",
+   "baked"
+  ],
+  "answer": 0,
+  "difficulty": "easy",
+  "explanation": "Passive voice."
+ },
+ {
+  "q": "If you heat ice, it ___.",
+  "options": [
+   "melt",
+   "melts",
+   "will melted",
+   "melted"
+  ],
+  "answer": 1,
+  "difficulty": "easy",
+  "explanation": "Zero conditional."
+ },
+ {
+  "q": "He ___ a letter to his friend.",
+  "options": [
+   "write",
+   "right",
+   "wrote",
+   "rote"
+  ],
+  "answer": 2,
+  "difficulty": "easy",
+  "explanation": "Past of 'write'."
+ },
+ {
+  "q": "We ___ the movie last night.",
+  "options": [
+   "saw",
+   "seen",
+   "sea",
+   "see"
+  ],
+  "answer": 0,
+  "difficulty": "easy",
+  "explanation": "Past of 'see'."
+ },
+ {
+  "q": "Which is correct?",
+  "options": [
+   "She are my friend.",
+   "She be my friend.",
+   "She am my friend.",
+   "She is my friend."
+  ],
+  "answer": 3,
+  "difficulty": "easy",
+  "explanation": "'She is'."
+ },
+ {
+  "q": "Which is correct?",
+  "options": [
+   "I don't know nothing.",
+   "I doesn't know anything.",
+   "I don't know anything.",
+   "I not know anything."
+  ],
+  "answer": 2,
+  "difficulty": "easy",
+  "explanation": "No double negatives."
+ },
+ {
+  "q": "She ___ here since morning.",
+  "options": [
+   "is",
+   "was been",
+   "have been",
+   "has been"
+  ],
+  "answer": 3,
+  "difficulty": "medium",
+  "explanation": "Present perfect with 'since'."
+ },
+ {
+  "q": "When I got home, my brother ___ already left.",
+  "options": [
+   "was",
+   "has",
+   "have",
+   "had"
+  ],
+  "answer": 3,
+  "difficulty": "medium",
+  "explanation": "Past perfect."
+ },
+ {
+  "q": "Neither of the twins ___ here.",
+  "options": [
+   "have",
+   "is",
+   "are",
+   "were"
+  ],
+  "answer": 1,
+  "difficulty": "medium",
+  "explanation": "'Neither' is singular."
+ },
+ {
+  "q": "The furniture in the rooms ___ old.",
+  "options": [
+   "have been",
+   "were",
+   "are",
+   "is"
+  ],
+  "answer": 3,
+  "difficulty": "medium",
+  "explanation": "'Furniture' is uncountable."
+ },
+ {
+  "q": "Which uses commas correctly?",
+  "options": [
+   "My friend, Priya, is a doctor.",
+   "My friend, Priya is a doctor.",
+   "My, friend Priya, is a doctor.",
+   "My friend Priya, is a doctor."
+  ],
+  "answer": 0,
+  "difficulty": "medium",
+  "explanation": "Commas around an appositive."
+ },
+ {
+  "q": "Which uses an apostrophe correctly?",
+  "options": [
+   "The children's' toys are here.",
+   "The childrens toys are here.",
+   "The children's toys are here.",
+   "The childrens' toys are here."
+  ],
+  "answer": 2,
+  "difficulty": "medium",
+  "explanation": "Irregular plural + 's."
+ },
+ {
+  "q": "The teacher praised ___ for our effort.",
+  "options": [
+   "our",
+   "us",
+   "we",
+   "ours"
+  ],
+  "answer": 1,
+  "difficulty": "medium",
+  "explanation": "Object pronoun."
+ },
+ {
+  "q": "I saw the boy ___ won the race.",
+  "options": [
+   "whom",
+   "whose",
+   "which",
+   "who"
+  ],
+  "answer": 3,
+  "difficulty": "medium",
+  "explanation": "Subject of 'won'."
+ },
+ {
+  "q": "She is fond ___ chocolate.",
+  "options": [
+   "of",
+   "on",
+   "at",
+   "with"
+  ],
+  "answer": 0,
+  "difficulty": "medium",
+  "explanation": "'Fond of'."
+ },
+ {
+  "q": "He lives ___ 12 Park Street.",
+  "options": [
+   "at",
+   "in",
+   "by",
+   "on"
+  ],
+  "answer": 0,
+  "difficulty": "medium",
+  "explanation": "'At' + street address."
+ },
+ {
+  "q": "She is the ___ of all my cousins.",
+  "options": [
+   "most youngest",
+   "youngest",
+   "more young",
+   "younger"
+  ],
+  "answer": 1,
+  "difficulty": "medium",
+  "explanation": "Superlative."
+ },
+ {
+  "q": "Which sentence has correct word order?",
+  "options": [
+   "I often visit my grandparents.",
+   "Often I my visit grandparents.",
+   "I visit often my grandparents.",
+   "I visit my often grandparents."
+  ],
+  "answer": 0,
+  "difficulty": "medium",
+  "explanation": "Adverb before the verb."
+ },
+ {
+  "q": "Which is a complex sentence?",
+  "options": [
+   "She smiled and waved.",
+   "She smiled, and he waved.",
+   "She smiled; he waved.",
+   "She smiled because she was happy."
+  ],
+  "answer": 3,
+  "difficulty": "medium",
+  "explanation": "Has a dependent clause."
+ },
+ {
+  "q": "Identify the subject: 'In the garden, the children played.'",
+  "options": [
+   "the children",
+   "played",
+   "the garden",
+   "In the garden"
+  ],
+  "answer": 0,
+  "difficulty": "medium",
+  "explanation": "Who did the action."
+ },
+ {
+  "q": "The thief ___ by the police.",
+  "options": [
+   "catch",
+   "was catch",
+   "was caught",
+   "has caught"
+  ],
+  "answer": 2,
+  "difficulty": "medium",
+  "explanation": "Passive voice."
+ },
+ {
+  "q": "If I ___ a bird, I would fly.",
+  "options": [
+   "was being",
+   "will be",
+   "am",
+   "were"
+  ],
+  "answer": 3,
+  "difficulty": "medium",
+  "explanation": "Hypothetical."
+ },
+ {
+  "q": "Please ___ the window.",
+  "options": [
+   "close",
+   "clothe",
+   "clothes",
+   "cloths"
+  ],
+  "answer": 0,
+  "difficulty": "medium",
+  "explanation": "Verb meaning 'shut'."
+ },
+ {
+  "q": "The ___ is very cold today.",
+  "options": [
+   "wheather",
+   "weather",
+   "whether",
+   "wether"
+  ],
+  "answer": 1,
+  "difficulty": "medium",
+  "explanation": "Weather vs whether."
+ },
+ {
+  "q": "Which is correct?",
+  "options": [
+   "The students has finished their work.",
+   "The students have finished its work.",
+   "The student have finished their work.",
+   "The students have finished their work."
+  ],
+  "answer": 3,
+  "difficulty": "medium",
+  "explanation": "Agreement."
+ },
+ {
+  "q": "Which is correct?",
+  "options": [
+   "Each of girls have pens.",
+   "Each of the girl has a pen.",
+   "Each of the girls has a pen.",
+   "Each of the girls have a pen."
+  ],
+  "answer": 2,
+  "difficulty": "medium",
+  "explanation": "'Each' is singular."
+ },
+ {
+  "q": "I ___ this film three times already.",
+  "options": [
+   "am seeing",
+   "have seen",
+   "saw",
+   "had see"
+  ],
+  "answer": 1,
+  "difficulty": "hard",
+  "explanation": "Present perfect."
+ },
+ {
+  "q": "He told me that he ___ in Mumbai for ten years.",
+  "options": [
+   "has lived",
+   "lives",
+   "had lived",
+   "will live"
+  ],
+  "answer": 2,
+  "difficulty": "hard",
+  "explanation": "Backshift."
+ },
+ {
+  "q": "Politics ___ a complicated subject.",
+  "options": [
+   "are",
+   "were",
+   "have been",
+   "is"
+  ],
+  "answer": 3,
+  "difficulty": "hard",
+  "explanation": "Singular subject."
+ },
+ {
+  "q": "The captain, together with his players, ___ celebrating.",
+  "options": [
+   "was",
+   "are",
+   "have been",
+   "were"
+  ],
+  "answer": 0,
+  "difficulty": "hard",
+  "explanation": "'Together with' doesn't change the subject."
+ },
+ {
+  "q": "Which uses a semicolon correctly?",
+  "options": [
+   "He was tired; therefore he, slept.",
+   "He was tired, therefore; he slept.",
+   "He was tired; therefore, he slept.",
+   "He was; tired therefore he slept."
+  ],
+  "answer": 2,
+  "difficulty": "hard",
+  "explanation": "Semicolon before 'therefore'."
+ },
+ {
+  "q": "Which is punctuated correctly?",
+  "options": [
+   "The boy, who was late apologised.",
+   "The boy who, was late, apologised.",
+   "The boy, who was late, apologised.",
+   "The boy who was late, apologised."
+  ],
+  "answer": 2,
+  "difficulty": "hard",
+  "explanation": "Commas around extra information."
+ },
+ {
+  "q": "She is a person on ___ I can rely.",
+  "options": [
+   "whom",
+   "whose",
+   "who",
+   "which"
+  ],
+  "answer": 0,
+  "difficulty": "hard",
+  "explanation": "Object of a preposition."
+ },
+ {
+  "q": "The manager asked ___ had sent the email.",
+  "options": [
+   "which of",
+   "whose",
+   "whom",
+   "who"
+  ],
+  "answer": 3,
+  "difficulty": "hard",
+  "explanation": "Subject of 'had sent'."
+ },
+ {
+  "q": "He is ___ best player in the team.",
+  "options": [
+   "a",
+   "the",
+   "an",
+   "no article"
+  ],
+  "answer": 1,
+  "difficulty": "hard",
+  "explanation": "Superlatives take 'the'."
+ },
+ {
+  "q": "She succeeded ___ solving the problem.",
+  "options": [
+   "on",
+   "at",
+   "to",
+   "in"
+  ],
+  "answer": 3,
+  "difficulty": "hard",
+  "explanation": "'Succeed in'."
+ },
+ {
+  "q": "Which sentence is clear?",
+  "options": [
+   "While walking in the woods, a snake slithered past.",
+   "Walking in the woods, the snake was seen.",
+   "While walking in the woods, I saw a snake.",
+   "A snake was walking in the woods when I saw."
+  ],
+  "answer": 2,
+  "difficulty": "hard",
+  "explanation": "The walker is the subject."
+ },
+ {
+  "q": "Which is logical?",
+  "options": [
+   "This phone is better than any other phone.",
+   "This phone is more better than other.",
+   "This phone is better than any phone.",
+   "This phone is the better than other phone."
+  ],
+  "answer": 0,
+  "difficulty": "hard",
+  "explanation": "Exclude the thing compared."
+ },
+ {
+  "q": "In 'Whoever wins gets the prize', 'Whoever wins' is a ___.",
+  "options": [
+   "phrase",
+   "noun clause",
+   "adjective clause",
+   "adverb clause"
+  ],
+  "answer": 1,
+  "difficulty": "hard",
+  "explanation": "It acts as the subject."
+ },
+ {
+  "q": "In 'To err is human', 'To err' is a(n) ___.",
+  "options": [
+   "gerund phrase",
+   "participial phrase",
+   "infinitive phrase",
+   "prepositional phrase"
+  ],
+  "answer": 2,
+  "difficulty": "hard",
+  "explanation": "to + verb."
+ },
+ {
+  "q": "Passive of 'The teacher is teaching us grammar.'",
+  "options": [
+   "Grammar is taught being us.",
+   "We were being taught grammar.",
+   "We are taught being grammar.",
+   "We are being taught grammar by the teacher."
+  ],
+  "answer": 3,
+  "difficulty": "hard",
+  "explanation": "Present continuous passive."
+ },
+ {
+  "q": "If he ___ harder, he would pass.",
+  "options": [
+   "will study",
+   "studies",
+   "studied",
+   "had studied"
+  ],
+  "answer": 2,
+  "difficulty": "hard",
+  "explanation": "Second conditional."
+ },
+ {
+  "q": "It is a ___ of time.",
+  "options": [
+   "waste",
+   "waist",
+   "wast",
+   "wasted"
+  ],
+  "answer": 0,
+  "difficulty": "hard",
+  "explanation": "Waste vs waist."
+ },
+ {
+  "q": "She has a ___ for languages.",
+  "options": [
+   "fler",
+   "flair",
+   "flayer",
+   "flare"
+  ],
+  "answer": 1,
+  "difficulty": "hard",
+  "explanation": "Flair = natural talent."
+ },
+ {
+  "q": "Which is correct?",
+  "options": [
+   "Neither Ravi nor Meena are arrived.",
+   "Neither Ravi nor Meena have arrived.",
+   "Neither Ravi nor Meena has arrived.",
+   "Neither Ravi or Meena has arrived."
+  ],
+  "answer": 2,
+  "difficulty": "hard",
+  "explanation": "Neither... nor + singular."
+ },
+ {
+  "q": "Which is best?",
+  "options": [
+   "He apologised, and then after that left.",
+   "He did an apology and made a leaving.",
+   "He apologised and left.",
+   "He was apologising and was leaving."
+  ],
+  "answer": 2,
+  "difficulty": "hard",
+  "explanation": "Concise and clear."
+ },
+ {
+  "q": "Hardly ___ the station when the train left.",
+  "options": [
+   "had we reached",
+   "we reached",
+   "we had reached",
+   "did we reach"
+  ],
+  "answer": 0,
+  "difficulty": "super-hard",
+  "explanation": "Inversion after 'Hardly'."
+ },
+ {
+  "q": "I'd sooner he ___ the truth.",
+  "options": [
+   "had tell",
+   "tell",
+   "tells",
+   "told"
+  ],
+  "answer": 3,
+  "difficulty": "super-hard",
+  "explanation": "'Would sooner' + past simple."
+ },
+ {
+  "q": "The president, as well as the ministers, ___ present.",
+  "options": [
+   "are",
+   "have been",
+   "was",
+   "were"
+  ],
+  "answer": 2,
+  "difficulty": "super-hard",
+  "explanation": "'As well as' doesn't change the subject."
+ },
+ {
+  "q": "Every boy and every girl ___ a book.",
+  "options": [
+   "have",
+   "were",
+   "has",
+   "are"
+  ],
+  "answer": 2,
+  "difficulty": "super-hard",
+  "explanation": "'Every' makes it singular."
+ },
+ {
+  "q": "Which is punctuated correctly?",
+  "options": [
+   "She had one fear; failure.",
+   "She had: one fear failure.",
+   "She had one fear, failure:",
+   "She had one fear: failure."
+  ],
+  "answer": 3,
+  "difficulty": "super-hard",
+  "explanation": "Colon introduces the fear."
+ },
+ {
+  "q": "Which is punctuated correctly?",
+  "options": [
+   "My sisters, Anu and Bela live abroad.",
+   "My sisters Anu, and Bela live abroad.",
+   "My sisters, Anu and Bela, live abroad.",
+   "My, sisters Anu and Bela, live abroad."
+  ],
+  "answer": 2,
+  "difficulty": "super-hard",
+  "explanation": "Appositive with commas on both sides."
+ },
+ {
+  "q": "I know ___ you mean.",
+  "options": [
+   "who",
+   "which",
+   "whose",
+   "whom"
+  ],
+  "answer": 3,
+  "difficulty": "super-hard",
+  "explanation": "Object of 'mean'."
+ },
+ {
+  "q": "No one except ___ knew the answer.",
+  "options": [
+   "her",
+   "hers",
+   "she",
+   "herself"
+  ],
+  "answer": 0,
+  "difficulty": "super-hard",
+  "explanation": "'Except' is a preposition."
+ },
+ {
+  "q": "He was accused ___ stealing.",
+  "options": [
+   "for",
+   "of",
+   "about",
+   "with"
+  ],
+  "answer": 1,
+  "difficulty": "super-hard",
+  "explanation": "'Accused of'."
+ },
+ {
+  "q": "She is senior ___ me.",
+  "options": [
+   "than",
+   "from",
+   "over",
+   "to"
+  ],
+  "answer": 3,
+  "difficulty": "super-hard",
+  "explanation": "'Senior to'."
+ },
+ {
+  "q": "The book is not so interesting ___ the film.",
+  "options": [
+   "like",
+   "that",
+   "than",
+   "as"
+  ],
+  "answer": 3,
+  "difficulty": "super-hard",
+  "explanation": "'So... as' in negatives."
+ },
+ {
+  "q": "Which uses 'like/as' correctly?",
+  "options": [
+   "Do likes I say.",
+   "Do like I say.",
+   "Do as like I say.",
+   "Do as I say."
+  ],
+  "answer": 3,
+  "difficulty": "super-hard",
+  "explanation": "'As' introduces a clause."
+ },
+ {
+  "q": "'Having finished the task, she left.' 'Having finished the task' is a ___.",
+  "options": [
+   "noun clause",
+   "infinitive phrase",
+   "participial phrase",
+   "gerund phrase"
+  ],
+  "answer": 2,
+  "difficulty": "super-hard",
+  "explanation": "Modifies 'she'."
+ },
+ {
+  "q": "Which contains a restrictive clause?",
+  "options": [
+   "My brother, who cheats, was punished.",
+   "Students who cheat will be punished.",
+   "Mia, who is kind, helped.",
+   "Delhi, which is big, is crowded."
+  ],
+  "answer": 1,
+  "difficulty": "super-hard",
+  "explanation": "No commas; essential information."
+ },
+ {
+  "q": "Which is a correct passive imperative of 'Open the door'?",
+  "options": [
+   "The door be open.",
+   "Let the door open by.",
+   "The door is opened.",
+   "Let the door be opened."
+  ],
+  "answer": 3,
+  "difficulty": "super-hard",
+  "explanation": "'Let' + be + participle."
+ },
+ {
+  "q": "If only I ___ the answer!",
+  "options": [
+   "had know",
+   "knew",
+   "know",
+   "would know"
+  ],
+  "answer": 1,
+  "difficulty": "super-hard",
+  "explanation": "Present wish: past simple."
+ },
+ {
+  "q": "From his tone, I ___ that he was upset.",
+  "options": [
+   "inferd",
+   "infered",
+   "inferred",
+   "implied"
+  ],
+  "answer": 2,
+  "difficulty": "super-hard",
+  "explanation": "Infer = deduce; imply = hint."
+ },
+ {
+  "q": "The doctor will ___ the patient's pain.",
+  "options": [
+   "aleviate",
+   "elevate",
+   "allude",
+   "alleviate"
+  ],
+  "answer": 3,
+  "difficulty": "super-hard",
+  "explanation": "Alleviate = ease."
+ },
+ {
+  "q": "Which is correct?",
+  "options": [
+   "It was his who broke the vase.",
+   "It was he whom broke the vase.",
+   "It was he who broke the vase.",
+   "It was him who broke the vase."
+  ],
+  "answer": 2,
+  "difficulty": "super-hard",
+  "explanation": "Subject complement (formal)."
+ },
+ {
+  "q": "Which is correct?",
+  "options": [
+   "Rarely he speaks in public.",
+   "Rarely does he speak in public.",
+   "Rarely he does speak in public.",
+   "Rarely does he speaks in public."
+  ],
+  "answer": 1,
+  "difficulty": "super-hard",
+  "explanation": "Inversion after 'Rarely'."
+ }
+]

@@ -1,0 +1,242 @@
+[
+ {
+  "q": "Which is a complete sentence?",
+  "options": [
+   "The sun that",
+   "The sun rose.",
+   "Rising over",
+   "Because the sun"
+  ],
+  "answer": 1,
+  "difficulty": "easy",
+  "explanation": "Subject + verb, complete idea."
+ },
+ {
+  "q": "'And' is a ___.",
+  "options": [
+   "conjunction",
+   "noun",
+   "verb",
+   "adverb"
+  ],
+  "answer": 0,
+  "difficulty": "easy",
+  "explanation": "It joins words or clauses."
+ },
+ {
+  "q": "Which is a simple sentence?",
+  "options": [
+   "I like tea.",
+   "I like tea; she likes coffee.",
+   "Because I like tea, I drink it.",
+   "I like tea and she likes coffee."
+  ],
+  "answer": 0,
+  "difficulty": "easy",
+  "explanation": "One independent clause."
+ },
+ {
+  "q": "A group of words with a subject and a verb is a ___.",
+  "options": [
+   "paragraph",
+   "phrase",
+   "clause",
+   "prefix"
+  ],
+  "answer": 2,
+  "difficulty": "easy",
+  "explanation": "Definition of a clause."
+ },
+ {
+  "q": "What is the subject of 'Birds fly'?",
+  "options": [
+   "Birds",
+   "None",
+   "fly",
+   "Birds fly"
+  ],
+  "answer": 0,
+  "difficulty": "easy",
+  "explanation": "Who/what does the action."
+ },
+ {
+  "q": "Which is a compound sentence?",
+  "options": [
+   "I wanted to go, but it rained.",
+   "Because it rained, I stayed.",
+   "I stayed home.",
+   "Staying home, I read."
+  ],
+  "answer": 0,
+  "difficulty": "medium",
+  "explanation": "Two independent clauses."
+ },
+ {
+  "q": "In 'When he came, we left', 'When he came' is a ___ clause.",
+  "options": [
+   "relative",
+   "main",
+   "dependent",
+   "independent"
+  ],
+  "answer": 2,
+  "difficulty": "medium",
+  "explanation": "It can't stand alone."
+ },
+ {
+  "q": "Identify the direct object: 'She baked a cake.'",
+  "options": [
+   "baked",
+   "a cake",
+   "None",
+   "She"
+  ],
+  "answer": 1,
+  "difficulty": "medium",
+  "explanation": "Receives the action."
+ },
+ {
+  "q": "In 'She sings in the choir', 'in the choir' is a ___ phrase.",
+  "options": [
+   "prepositional",
+   "noun",
+   "gerund",
+   "verb"
+  ],
+  "answer": 0,
+  "difficulty": "medium",
+  "explanation": "Begins with a preposition."
+ },
+ {
+  "q": "Which is a complex sentence?",
+  "options": [
+   "I stayed in, and it rained.",
+   "Rain fell; I stayed in.",
+   "I stayed in.",
+   "I stayed in because it was raining."
+  ],
+  "answer": 3,
+  "difficulty": "medium",
+  "explanation": "Independent + dependent clause."
+ },
+ {
+  "q": "In 'I know that she was late', 'that she was late' is a ___ clause.",
+  "options": [
+   "independent",
+   "adverb",
+   "adjective",
+   "noun"
+  ],
+  "answer": 3,
+  "difficulty": "hard",
+  "explanation": "It's the object of 'know'."
+ },
+ {
+  "q": "Which is compound-complex?",
+  "options": [
+   "We played and we won.",
+   "We played; we won.",
+   "Although it rained, we played, and we won.",
+   "Although it rained, we played."
+  ],
+  "answer": 2,
+  "difficulty": "hard",
+  "explanation": "Two independent + one dependent."
+ },
+ {
+  "q": "In 'The man who called is my uncle', 'who called' is a(n) ___ clause.",
+  "options": [
+   "adverb",
+   "independent",
+   "noun",
+   "adjective"
+  ],
+  "answer": 3,
+  "difficulty": "hard",
+  "explanation": "It describes 'man'."
+ },
+ {
+  "q": "Which sentence has an adverbial clause?",
+  "options": [
+   "She left the room.",
+   "She left before it rained.",
+   "The girl who left is Mia.",
+   "She left, but I stayed."
+  ],
+  "answer": 1,
+  "difficulty": "hard",
+  "explanation": "'Before it rained' modifies 'left'."
+ },
+ {
+  "q": "In 'He gave Mia a gift', the indirect object is ___.",
+  "options": [
+   "He",
+   "Mia",
+   "gift",
+   "gave"
+  ],
+  "answer": 1,
+  "difficulty": "hard",
+  "explanation": "Receiver of the direct object."
+ },
+ {
+  "q": "Which sentence has a participial phrase?",
+  "options": [
+   "Exhausted by the trek, the rest came.",
+   "Exhausted by the trek, resting was needed.",
+   "The hikers exhausted by the trek rested, resting.",
+   "Exhausted by the trek, the hikers rested."
+  ],
+  "answer": 3,
+  "difficulty": "super-hard",
+  "explanation": "Phrase modifies 'hikers'."
+ },
+ {
+  "q": "What is 'To read' in 'To read is to learn'?",
+  "options": [
+   "a noun (subject)",
+   "an adjective",
+   "an adverb",
+   "a main verb"
+  ],
+  "answer": 0,
+  "difficulty": "super-hard",
+  "explanation": "Infinitive used as a noun."
+ },
+ {
+  "q": "Which contains an absolute phrase?",
+  "options": [
+   "We went home after work.",
+   "We went home, tired.",
+   "The work done, we went home.",
+   "Working hard, we went home."
+  ],
+  "answer": 2,
+  "difficulty": "super-hard",
+  "explanation": "Noun + participle with no link word."
+ },
+ {
+  "q": "Which is a fused (run-on) sentence?",
+  "options": [
+   "She studied hard she passed.",
+   "She studied hard; she passed.",
+   "She studied hard. She passed.",
+   "She studied hard, so she passed."
+  ],
+  "answer": 0,
+  "difficulty": "super-hard",
+  "explanation": "No punctuation or conjunction."
+ },
+ {
+  "q": "In 'What he said surprised me', the subject is ___.",
+  "options": [
+   "me",
+   "What he said",
+   "He",
+   "surprised"
+  ],
+  "answer": 1,
+  "difficulty": "super-hard",
+  "explanation": "A noun clause is the subject."
+ }
+]

@@ -1,0 +1,242 @@
+[
+ {
+  "q": "She is ___ honest girl.",
+  "options": [
+   "a",
+   "an",
+   "one a",
+   "the"
+  ],
+  "answer": 1,
+  "difficulty": "easy",
+  "explanation": "'Honest' starts with a vowel sound."
+ },
+ {
+  "q": "I go to school ___ bus.",
+  "options": [
+   "at",
+   "of",
+   "with",
+   "by"
+  ],
+  "answer": 3,
+  "difficulty": "easy",
+  "explanation": "'By' + transport."
+ },
+ {
+  "q": "The book is ___ the table.",
+  "options": [
+   "in",
+   "at",
+   "on",
+   "to"
+  ],
+  "answer": 2,
+  "difficulty": "easy",
+  "explanation": "On a surface."
+ },
+ {
+  "q": "He arrived ___ 5 pm.",
+  "options": [
+   "on",
+   "for",
+   "in",
+   "at"
+  ],
+  "answer": 3,
+  "difficulty": "easy",
+  "explanation": "'At' + clock time."
+ },
+ {
+  "q": "She was born ___ 1998.",
+  "options": [
+   "by",
+   "on",
+   "at",
+   "in"
+  ],
+  "answer": 3,
+  "difficulty": "easy",
+  "explanation": "'In' + year."
+ },
+ {
+  "q": "I'll see you ___ Monday.",
+  "options": [
+   "in",
+   "on",
+   "by",
+   "at"
+  ],
+  "answer": 1,
+  "difficulty": "medium",
+  "explanation": "'On' + day."
+ },
+ {
+  "q": "He is afraid ___ spiders.",
+  "options": [
+   "with",
+   "of",
+   "from",
+   "at"
+  ],
+  "answer": 1,
+  "difficulty": "medium",
+  "explanation": "'Afraid of'."
+ },
+ {
+  "q": "___ sun rises in the east.",
+  "options": [
+   "No article",
+   "The",
+   "A",
+   "An"
+  ],
+  "answer": 1,
+  "difficulty": "medium",
+  "explanation": "Unique things take 'the'."
+ },
+ {
+  "q": "She is good ___ playing chess.",
+  "options": [
+   "for",
+   "on",
+   "in",
+   "at"
+  ],
+  "answer": 3,
+  "difficulty": "medium",
+  "explanation": "'Good at'."
+ },
+ {
+  "q": "I don't have ___ money.",
+  "options": [
+   "many",
+   "a few",
+   "much",
+   "few"
+  ],
+  "answer": 2,
+  "difficulty": "medium",
+  "explanation": "'Much' with uncountables."
+ },
+ {
+  "q": "He congratulated me ___ my success.",
+  "options": [
+   "for",
+   "at",
+   "about",
+   "on"
+  ],
+  "answer": 3,
+  "difficulty": "hard",
+  "explanation": "'Congratulate on'."
+ },
+ {
+  "q": "She prefers tea ___ coffee.",
+  "options": [
+   "than",
+   "from",
+   "to",
+   "over to"
+  ],
+  "answer": 2,
+  "difficulty": "hard",
+  "explanation": "'Prefer X to Y'."
+ },
+ {
+  "q": "He has ___ interest in politics.",
+  "options": [
+   "no",
+   "neither",
+   "none",
+   "not"
+  ],
+  "answer": 0,
+  "difficulty": "hard",
+  "explanation": "'No' + noun."
+ },
+ {
+  "q": "I am looking forward ___ the holidays.",
+  "options": [
+   "on",
+   "at",
+   "for",
+   "to"
+  ],
+  "answer": 3,
+  "difficulty": "hard",
+  "explanation": "'Look forward to'."
+ },
+ {
+  "q": "He has been teaching ___ ten years.",
+  "options": [
+   "for",
+   "during",
+   "from",
+   "since"
+  ],
+  "answer": 0,
+  "difficulty": "hard",
+  "explanation": "'For' + a duration."
+ },
+ {
+  "q": "She is married ___ a doctor.",
+  "options": [
+   "with",
+   "to",
+   "by",
+   "for"
+  ],
+  "answer": 1,
+  "difficulty": "super-hard",
+  "explanation": "'Married to'."
+ },
+ {
+  "q": "The meeting has been put ___ until Friday.",
+  "options": [
+   "off",
+   "out",
+   "down",
+   "away"
+  ],
+  "answer": 0,
+  "difficulty": "super-hard",
+  "explanation": "'Put off' = postpone."
+ },
+ {
+  "q": "He is capable ___ doing better.",
+  "options": [
+   "of",
+   "for",
+   "to",
+   "at"
+  ],
+  "answer": 0,
+  "difficulty": "super-hard",
+  "explanation": "'Capable of'."
+ },
+ {
+  "q": "Which sentence is correct?",
+  "options": [
+   "She is the one who to I gave the book.",
+   "She is the one to who I gave the book.",
+   "She is the one whom I gave the book to her.",
+   "She is the one to whom I gave the book."
+  ],
+  "answer": 3,
+  "difficulty": "super-hard",
+  "explanation": "Preposition + whom."
+ },
+ {
+  "q": "He has ___ MBA from a top school.",
+  "options": [
+   "no article",
+   "the",
+   "a",
+   "an"
+  ],
+  "answer": 3,
+  "difficulty": "super-hard",
+  "explanation": "Article follows the sound /em/."
+ }
+]

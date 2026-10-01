@@ -1,0 +1,242 @@
+[
+ {
+  "q": "Which sentence is punctuated correctly?",
+  "options": [
+   "I like apples, oranges and, pears.",
+   "I like, apples oranges and pears.",
+   "I like apples, oranges, and pears.",
+   "I like apples oranges, and pears."
+  ],
+  "answer": 2,
+  "difficulty": "easy",
+  "explanation": "Commas separate list items."
+ },
+ {
+  "q": "Which is punctuated correctly?",
+  "options": [
+   "Where do you live?",
+   "Where do you live.",
+   "Where do you live!,",
+   "Where do you live,"
+  ],
+  "answer": 0,
+  "difficulty": "easy",
+  "explanation": "Questions end with ?"
+ },
+ {
+  "q": "Which sentence shows possession correctly?",
+  "options": [
+   "That is Tom bag's.",
+   "That is Toms' bag.",
+   "That is Tom's bag.",
+   "That is Toms bag."
+  ],
+  "answer": 2,
+  "difficulty": "easy",
+  "explanation": "Add 's to a singular noun."
+ },
+ {
+  "q": "Which uses capitals correctly?",
+  "options": [
+   "we visited mumbai on monday.",
+   "We visited Mumbai on Monday.",
+   "We visited mumbai on monday.",
+   "We visited Mumbai on monday."
+  ],
+  "answer": 1,
+  "difficulty": "easy",
+  "explanation": "Capitalise proper nouns and days."
+ },
+ {
+  "q": "What is the contraction of 'do not'?",
+  "options": [
+   "do'nt",
+   "don't",
+   "d'ont",
+   "dont"
+  ],
+  "answer": 1,
+  "difficulty": "easy",
+  "explanation": "The apostrophe replaces 'o'."
+ },
+ {
+  "q": "Which sentence uses commas correctly?",
+  "options": [
+   "After dinner we watched, a film.",
+   "After dinner we, watched a film.",
+   "After dinner, we watched a film.",
+   "After, dinner we watched a film."
+  ],
+  "answer": 2,
+  "difficulty": "medium",
+  "explanation": "Comma after an introductory phrase."
+ },
+ {
+  "q": "Which uses a colon correctly?",
+  "options": [
+   "You need three things; a pen, paper and time.",
+   "You: need three things a pen.",
+   "You need three things: a pen, paper and time.",
+   "You need: a pen, paper and time."
+  ],
+  "answer": 2,
+  "difficulty": "medium",
+  "explanation": "Colon follows a complete clause."
+ },
+ {
+  "q": "Choose the correct plural possessive.",
+  "options": [
+   "The girls room's is tidy.",
+   "The girls' room is tidy.",
+   "The girl's rooms is tidy.",
+   "The girls's room is tidy."
+  ],
+  "answer": 1,
+  "difficulty": "medium",
+  "explanation": "Plural ending in -s: add just an apostrophe."
+ },
+ {
+  "q": "Which is correctly punctuated?",
+  "options": [
+   "However; I disagree,",
+   "However, I disagree.",
+   "However I disagree,",
+   "However I, disagree."
+  ],
+  "answer": 1,
+  "difficulty": "medium",
+  "explanation": "Comma after a transition word."
+ },
+ {
+  "q": "Which hyphenation is correct?",
+  "options": [
+   "My brother-in law is a pilot.",
+   "My brotherin-law is a pilot.",
+   "My brother in-law is a pilot.",
+   "My brother-in-law is a pilot."
+  ],
+  "answer": 3,
+  "difficulty": "medium",
+  "explanation": "Hyphenate every part."
+ },
+ {
+  "q": "Which sentence uses a semicolon correctly?",
+  "options": [
+   "I love tea, my brother; prefers coffee.",
+   "I love; tea my brother prefers coffee.",
+   "I love tea; and my brother prefers coffee.",
+   "I love tea; my brother prefers coffee."
+  ],
+  "answer": 3,
+  "difficulty": "hard",
+  "explanation": "Joins two independent clauses."
+ },
+ {
+  "q": "Which punctuates a non-restrictive clause correctly?",
+  "options": [
+   "My laptop, which I bought last year is slow.",
+   "My laptop which I bought last year, is slow.",
+   "My laptop which, I bought last year, is slow.",
+   "My laptop, which I bought last year, is slow."
+  ],
+  "answer": 3,
+  "difficulty": "hard",
+  "explanation": "Extra information goes between commas."
+ },
+ {
+  "q": "Which uses its/it's correctly?",
+  "options": [
+   "It's clear that the cat licked its paw.",
+   "Its clear that the cat licked it's paw.",
+   "Its clear that the cat licked its' paw.",
+   "It's clear that the cat licked it's paw."
+  ],
+  "answer": 0,
+  "difficulty": "hard",
+  "explanation": "it's = it is; its = possessive."
+ },
+ {
+  "q": "Which punctuation changes the meaning to an invitation?",
+  "options": [
+   "Lets eat, Grandma.",
+   "Let's eat, Grandma.",
+   "Let's eat Grandma,",
+   "Let's, eat Grandma."
+  ],
+  "answer": 1,
+  "difficulty": "hard",
+  "explanation": "Comma marks direct address."
+ },
+ {
+  "q": "Which sentence is correctly punctuated?",
+  "options": [
+   "Although, it was late she kept studying.",
+   "Although it was late, she kept studying.",
+   "Although it was late she, kept studying.",
+   "Although it was late; she kept studying."
+  ],
+  "answer": 1,
+  "difficulty": "hard",
+  "explanation": "Comma after a dependent clause."
+ },
+ {
+  "q": "Which uses an em dash correctly for an interruption?",
+  "options": [
+   "The—result surprising to everyone was a tie.",
+   "The result—surprising to everyone—was a tie.",
+   "The result, surprising to everyone— was a tie.",
+   "The result—surprising to everyone, was a tie."
+  ],
+  "answer": 1,
+  "difficulty": "super-hard",
+  "explanation": "Paired dashes frame an aside."
+ },
+ {
+  "q": "Which punctuates a list with internal commas correctly?",
+  "options": [
+   "We visited Paris, France; Rome, Italy; and Berlin, Germany.",
+   "We visited Paris, France, Rome, Italy, and Berlin, Germany.",
+   "We visited Paris, France: Rome, Italy: and Berlin, Germany.",
+   "We visited Paris; France, Rome; Italy, and Berlin; Germany."
+  ],
+  "answer": 0,
+  "difficulty": "super-hard",
+  "explanation": "Use semicolons to separate complex items."
+ },
+ {
+  "q": "Which punctuates direct speech correctly?",
+  "options": [
+   "He said \"I am leaving\"",
+   "He said, \"I am leaving.\"",
+   "He said, I am leaving.\"",
+   "He said \"I am leaving.,\""
+  ],
+  "answer": 1,
+  "difficulty": "super-hard",
+  "explanation": "Comma, then quotation with end punctuation inside."
+ },
+ {
+  "q": "Which hyphenation is correct?",
+  "options": [
+   "a twenty year old-man",
+   "a twenty year-old man",
+   "a twenty-year old man",
+   "a twenty-year-old man"
+  ],
+  "answer": 3,
+  "difficulty": "super-hard",
+  "explanation": "Compound adjective before a noun."
+ },
+ {
+  "q": "Which uses a colon and semicolon correctly?",
+  "options": [
+   "He had one goal; to win: nothing else mattered.",
+   "He had: one goal to win; nothing, else mattered.",
+   "He had one goal, to win: nothing else mattered.",
+   "He had one goal: to win; nothing else mattered."
+  ],
+  "answer": 3,
+  "difficulty": "super-hard",
+  "explanation": "Colon introduces; semicolon joins clauses."
+ }
+]

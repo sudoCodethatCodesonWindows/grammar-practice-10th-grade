@@ -1,0 +1,242 @@
+[
+ {
+  "q": "___ going to be late.",
+  "options": [
+   "Where",
+   "We're",
+   "Wear",
+   "Were"
+  ],
+  "answer": 1,
+  "difficulty": "easy",
+  "explanation": "We're = we are."
+ },
+ {
+  "q": "Put the book over ___.",
+  "options": [
+   "there",
+   "three",
+   "their",
+   "they're"
+  ],
+  "answer": 0,
+  "difficulty": "easy",
+  "explanation": "Place."
+ },
+ {
+  "q": "I want to go, ___.",
+  "options": [
+   "to",
+   "two",
+   "too",
+   "tow"
+  ],
+  "answer": 2,
+  "difficulty": "easy",
+  "explanation": "'Too' = also."
+ },
+ {
+  "q": "___ you coming?",
+  "options": [
+   "Our",
+   "Are",
+   "Hour",
+   "Or"
+  ],
+  "answer": 1,
+  "difficulty": "easy",
+  "explanation": "Verb 'are'."
+ },
+ {
+  "q": "She is taller ___ me.",
+  "options": [
+   "than",
+   "that",
+   "then",
+   "thin"
+  ],
+  "answer": 0,
+  "difficulty": "easy",
+  "explanation": "'Than' compares."
+ },
+ {
+  "q": "Please ___ the rules.",
+  "options": [
+   "excerpt",
+   "expect",
+   "except",
+   "accept"
+  ],
+  "answer": 3,
+  "difficulty": "medium",
+  "explanation": "'Accept' = receive/agree."
+ },
+ {
+  "q": "Her advice had a great ___ on me.",
+  "options": [
+   "affected",
+   "effect",
+   "affect",
+   "afford"
+  ],
+  "answer": 1,
+  "difficulty": "medium",
+  "explanation": "Noun: effect."
+ },
+ {
+  "q": "I need some ___ about the course.",
+  "options": [
+   "advised",
+   "advise",
+   "advice",
+   "advices"
+  ],
+  "answer": 2,
+  "difficulty": "medium",
+  "explanation": "Advice (noun), advise (verb)."
+ },
+ {
+  "q": "The cat lost ___ collar.",
+  "options": [
+   "it",
+   "its",
+   "its'",
+   "it's"
+  ],
+  "answer": 1,
+  "difficulty": "medium",
+  "explanation": "Possessive."
+ },
+ {
+  "q": "Honesty is a basic ___.",
+  "options": [
+   "principle",
+   "principals",
+   "principal",
+   "principel"
+  ],
+  "answer": 0,
+  "difficulty": "medium",
+  "explanation": "Principle = rule/belief."
+ },
+ {
+  "q": "The ___ gave a speech to the school.",
+  "options": [
+   "principel",
+   "principal",
+   "principle",
+   "principals"
+  ],
+  "answer": 1,
+  "difficulty": "hard",
+  "explanation": "Principal = head of school."
+ },
+ {
+  "q": "The wine is a perfect ___ to the meal.",
+  "options": [
+   "complement",
+   "compliment",
+   "complemant",
+   "complimint"
+  ],
+  "answer": 0,
+  "difficulty": "hard",
+  "explanation": "Complement = completes."
+ },
+ {
+  "q": "I bought some ___ for the office.",
+  "options": [
+   "stationeries",
+   "stationary",
+   "stationery",
+   "stationairy"
+  ],
+  "answer": 2,
+  "difficulty": "hard",
+  "explanation": "Stationery = paper/pens."
+ },
+ {
+  "q": "Don't ___ your keys.",
+  "options": [
+   "lose",
+   "loss",
+   "lost",
+   "loose"
+  ],
+  "answer": 0,
+  "difficulty": "hard",
+  "explanation": "Lose = misplace."
+ },
+ {
+  "q": "___ coming to the party?",
+  "options": [
+   "Who",
+   "Whose",
+   "Who's",
+   "Whos"
+  ],
+  "answer": 2,
+  "difficulty": "hard",
+  "explanation": "Who's = who is."
+ },
+ {
+  "q": "She tried to ___ the tension in the room.",
+  "options": [
+   "defuze",
+   "deffuse",
+   "defuse",
+   "diffuse"
+  ],
+  "answer": 2,
+  "difficulty": "super-hard",
+  "explanation": "Defuse = make less dangerous."
+ },
+ {
+  "q": "A judge should be ___, not biased.",
+  "options": [
+   "disintrested",
+   "uninterested",
+   "disinterested",
+   "interested"
+  ],
+  "answer": 2,
+  "difficulty": "super-hard",
+  "explanation": "Disinterested = impartial."
+ },
+ {
+  "q": "The question will ___ a response.",
+  "options": [
+   "elicit",
+   "elicet",
+   "illicit",
+   "ellicit"
+  ],
+  "answer": 0,
+  "difficulty": "super-hard",
+  "explanation": "Elicit = draw out."
+ },
+ {
+  "q": "Please ___ me that it is safe.",
+  "options": [
+   "ensure",
+   "assert",
+   "assure",
+   "insure"
+  ],
+  "answer": 2,
+  "difficulty": "super-hard",
+  "explanation": "Assure a person; ensure a result."
+ },
+ {
+  "q": "She felt ___ about the job: part excited, part worried.",
+  "options": [
+   "ambient",
+   "ambivalent",
+   "ambidextrous",
+   "ambiguous"
+  ],
+  "answer": 1,
+  "difficulty": "super-hard",
+  "explanation": "Mixed feelings."
+ }
+]

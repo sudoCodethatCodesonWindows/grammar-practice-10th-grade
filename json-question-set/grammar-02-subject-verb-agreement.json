@@ -1,0 +1,242 @@
+[
+ {
+  "q": "The boys ___ in the garden.",
+  "options": [
+   "plays",
+   "is play",
+   "play",
+   "has play"
+  ],
+  "answer": 2,
+  "difficulty": "easy",
+  "explanation": "Plural subject, plural verb."
+ },
+ {
+  "q": "My sister ___ a teacher.",
+  "options": [
+   "is",
+   "are",
+   "am",
+   "be"
+  ],
+  "answer": 0,
+  "difficulty": "easy",
+  "explanation": "Singular subject."
+ },
+ {
+  "q": "Everyone ___ here.",
+  "options": [
+   "is",
+   "are",
+   "have",
+   "were"
+  ],
+  "answer": 0,
+  "difficulty": "easy",
+  "explanation": "'Everyone' is singular."
+ },
+ {
+  "q": "The children ___ happy.",
+  "options": [
+   "are",
+   "is",
+   "has",
+   "was"
+  ],
+  "answer": 0,
+  "difficulty": "easy",
+  "explanation": "'Children' is plural."
+ },
+ {
+  "q": "A dog and a cat ___ in the house.",
+  "options": [
+   "was",
+   "are",
+   "is",
+   "has"
+  ],
+  "answer": 1,
+  "difficulty": "easy",
+  "explanation": "Two subjects joined by 'and'."
+ },
+ {
+  "q": "Either of the answers ___ correct.",
+  "options": [
+   "have been",
+   "is",
+   "are",
+   "were"
+  ],
+  "answer": 1,
+  "difficulty": "medium",
+  "explanation": "'Either' is singular."
+ },
+ {
+  "q": "The news ___ shocking.",
+  "options": [
+   "were",
+   "are",
+   "have",
+   "is"
+  ],
+  "answer": 3,
+  "difficulty": "medium",
+  "explanation": "'News' is singular."
+ },
+ {
+  "q": "Each of the rooms ___ a fan.",
+  "options": [
+   "are having",
+   "has",
+   "have",
+   "were having"
+  ],
+  "answer": 1,
+  "difficulty": "medium",
+  "explanation": "'Each' is singular."
+ },
+ {
+  "q": "Ten dollars ___ too much for this.",
+  "options": [
+   "is",
+   "are",
+   "have been",
+   "were"
+  ],
+  "answer": 0,
+  "difficulty": "medium",
+  "explanation": "Money as a sum is singular."
+ },
+ {
+  "q": "The pair of shoes ___ new.",
+  "options": [
+   "is",
+   "are",
+   "were",
+   "have"
+  ],
+  "answer": 0,
+  "difficulty": "medium",
+  "explanation": "Subject is 'pair'."
+ },
+ {
+  "q": "One of the boys who ___ absent got a message.",
+  "options": [
+   "was",
+   "were",
+   "is",
+   "has been"
+  ],
+  "answer": 1,
+  "difficulty": "hard",
+  "explanation": "'Who' refers to 'boys' (plural)."
+ },
+ {
+  "q": "Not only the teacher but also the students ___ invited.",
+  "options": [
+   "were",
+   "has been",
+   "was",
+   "is"
+  ],
+  "answer": 0,
+  "difficulty": "hard",
+  "explanation": "Verb agrees with the nearer subject."
+ },
+ {
+  "q": "A number of students ___ absent today.",
+  "options": [
+   "has been",
+   "was",
+   "is",
+   "are"
+  ],
+  "answer": 3,
+  "difficulty": "hard",
+  "explanation": "'A number of' is plural."
+ },
+ {
+  "q": "Mumps ___ a contagious disease.",
+  "options": [
+   "were",
+   "are",
+   "is",
+   "have been"
+  ],
+  "answer": 2,
+  "difficulty": "hard",
+  "explanation": "Disease names ending in -s are singular."
+ },
+ {
+  "q": "The quality of the apples ___ poor.",
+  "options": [
+   "were",
+   "are",
+   "is",
+   "have been"
+  ],
+  "answer": 2,
+  "difficulty": "hard",
+  "explanation": "Subject is 'quality'."
+ },
+ {
+  "q": "It is I who ___ responsible.",
+  "options": [
+   "are",
+   "am",
+   "is",
+   "be"
+  ],
+  "answer": 1,
+  "difficulty": "super-hard",
+  "explanation": "The verb agrees with 'I'."
+ },
+ {
+  "q": "More than one student ___ failed.",
+  "options": [
+   "has",
+   "were",
+   "are",
+   "have"
+  ],
+  "answer": 0,
+  "difficulty": "super-hard",
+  "explanation": "'More than one' takes a singular verb."
+ },
+ {
+  "q": "Many a student ___ made this mistake.",
+  "options": [
+   "are",
+   "has",
+   "were",
+   "have"
+  ],
+  "answer": 1,
+  "difficulty": "super-hard",
+  "explanation": "'Many a' is followed by singular."
+ },
+ {
+  "q": "The majority of the cake ___ eaten.",
+  "options": [
+   "are",
+   "were",
+   "have",
+   "was"
+  ],
+  "answer": 3,
+  "difficulty": "super-hard",
+  "explanation": "Uncountable noun takes singular."
+ },
+ {
+  "q": "Two-thirds of the voters ___ against it.",
+  "options": [
+   "was",
+   "has",
+   "is",
+   "were"
+  ],
+  "answer": 3,
+  "difficulty": "super-hard",
+  "explanation": "Fraction of a plural noun is plural."
+ }
+]

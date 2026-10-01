@@ -1,0 +1,242 @@
+[
+ {
+  "q": "She ___ TV when I called.",
+  "options": [
+   "is watched",
+   "watching",
+   "watched is",
+   "was watching"
+  ],
+  "answer": 3,
+  "difficulty": "easy",
+  "explanation": "Past continuous for an interrupted action."
+ },
+ {
+  "q": "I ___ breakfast already.",
+  "options": [
+   "have eaten",
+   "am eaten",
+   "eat",
+   "has eaten"
+  ],
+  "answer": 0,
+  "difficulty": "easy",
+  "explanation": "Present perfect with 'already'."
+ },
+ {
+  "q": "Tomorrow we ___ to the museum.",
+  "options": [
+   "will go",
+   "went",
+   "gone",
+   "are went"
+  ],
+  "answer": 0,
+  "difficulty": "easy",
+  "explanation": "Future with 'will'."
+ },
+ {
+  "q": "He ___ football every Sunday.",
+  "options": [
+   "are playing",
+   "playing",
+   "plays",
+   "play"
+  ],
+  "answer": 2,
+  "difficulty": "easy",
+  "explanation": "Habit: present simple, -s for 'he'."
+ },
+ {
+  "q": "What is the past tense of 'write'?",
+  "options": [
+   "written",
+   "writes",
+   "writed",
+   "wrote"
+  ],
+  "answer": 3,
+  "difficulty": "easy",
+  "explanation": "Irregular verb."
+ },
+ {
+  "q": "By the time we arrived, the film ___.",
+  "options": [
+   "starts",
+   "has started",
+   "had started",
+   "was start"
+  ],
+  "answer": 2,
+  "difficulty": "medium",
+  "explanation": "Past perfect: earlier past action."
+ },
+ {
+  "q": "She has lived here ___ 2015.",
+  "options": [
+   "during",
+   "for",
+   "since",
+   "from"
+  ],
+  "answer": 2,
+  "difficulty": "medium",
+  "explanation": "'Since' + a starting point."
+ },
+ {
+  "q": "I ___ in Delhi for five years now.",
+  "options": [
+   "have lived",
+   "was living",
+   "lived",
+   "live"
+  ],
+  "answer": 0,
+  "difficulty": "medium",
+  "explanation": "Present perfect with 'for'."
+ },
+ {
+  "q": "What is the past participle of 'swim'?",
+  "options": [
+   "swam",
+   "swum",
+   "swimmed",
+   "swimming"
+  ],
+  "answer": 1,
+  "difficulty": "medium",
+  "explanation": "swim - swam - swum."
+ },
+ {
+  "q": "While he ___, the phone rang.",
+  "options": [
+   "cooks",
+   "has cooked",
+   "was cooking",
+   "will cook"
+  ],
+  "answer": 2,
+  "difficulty": "medium",
+  "explanation": "Past continuous with 'while'."
+ },
+ {
+  "q": "This time next week, I ___ on a beach.",
+  "options": [
+   "am lain",
+   "will be lying",
+   "lay",
+   "have lain"
+  ],
+  "answer": 1,
+  "difficulty": "hard",
+  "explanation": "Future continuous."
+ },
+ {
+  "q": "I wish I ___ the answer yesterday.",
+  "options": [
+   "would know",
+   "knew",
+   "had known",
+   "know"
+  ],
+  "answer": 2,
+  "difficulty": "hard",
+  "explanation": "Past perfect for past regrets."
+ },
+ {
+  "q": "She said she ___ the report the day before.",
+  "options": [
+   "had finished",
+   "will finish",
+   "finishes",
+   "has finished"
+  ],
+  "answer": 0,
+  "difficulty": "hard",
+  "explanation": "Backshift in reported speech."
+ },
+ {
+  "q": "He ___ for two hours when the bus finally came.",
+  "options": [
+   "was wait",
+   "waits",
+   "has been waiting",
+   "had been waiting"
+  ],
+  "answer": 3,
+  "difficulty": "hard",
+  "explanation": "Past perfect continuous."
+ },
+ {
+  "q": "Which sentence is correct?",
+  "options": [
+   "I know him since years.",
+   "I am knowing him for years.",
+   "I have been knowing him for years.",
+   "I have known him for years."
+  ],
+  "answer": 3,
+  "difficulty": "hard",
+  "explanation": "Stative verbs avoid continuous forms."
+ },
+ {
+  "q": "By 2030, the company ___ for thirty years.",
+  "options": [
+   "will have been operating",
+   "will operate",
+   "has operated",
+   "will be operated"
+  ],
+  "answer": 0,
+  "difficulty": "super-hard",
+  "explanation": "Future perfect continuous."
+ },
+ {
+  "q": "No sooner ___ the door than the alarm rang.",
+  "options": [
+   "had she opened",
+   "she had opened",
+   "did she open",
+   "she opened"
+  ],
+  "answer": 0,
+  "difficulty": "super-hard",
+  "explanation": "Inversion after 'No sooner'."
+ },
+ {
+  "q": "It is high time we ___ home.",
+  "options": [
+   "go",
+   "have gone",
+   "will go",
+   "went"
+  ],
+  "answer": 3,
+  "difficulty": "super-hard",
+  "explanation": "'It's time' + past simple."
+ },
+ {
+  "q": "She is said ___ the first woman to climb it.",
+  "options": [
+   "having to be",
+   "that she is been",
+   "to have been",
+   "to being"
+  ],
+  "answer": 2,
+  "difficulty": "super-hard",
+  "explanation": "Perfect infinitive for past reference."
+ },
+ {
+  "q": "Which sentence is correct?",
+  "options": [
+   "Is he to arrived early, we would start.",
+   "Were he to arrive early, we would start.",
+   "Would he arrive early, we would start.",
+   "He were to arrive early, we would start."
+  ],
+  "answer": 1,
+  "difficulty": "super-hard",
+  "explanation": "Inverted 'were to' conditional."
+ }
+]

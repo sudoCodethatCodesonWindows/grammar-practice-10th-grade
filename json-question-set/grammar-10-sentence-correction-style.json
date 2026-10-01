@@ -1,0 +1,242 @@
+[
+ {
+  "q": "Which is correct?",
+  "options": [
+   "She not have any money.",
+   "She doesn't have any money.",
+   "She doesn't have no money.",
+   "She don't have any money."
+  ],
+  "answer": 1,
+  "difficulty": "easy",
+  "explanation": "Avoid double negatives."
+ },
+ {
+  "q": "Correct: 'He go to school.'",
+  "options": [
+   "He goes to school.",
+   "He gone to school.",
+   "He goed to school.",
+   "He going to school."
+  ],
+  "answer": 0,
+  "difficulty": "easy",
+  "explanation": "Third person singular."
+ },
+ {
+  "q": "Which is correct?",
+  "options": [
+   "I have two brother.",
+   "I am have two brothers.",
+   "I have two brothers.",
+   "I has two brothers."
+  ],
+  "answer": 2,
+  "difficulty": "easy",
+  "explanation": "Plural noun after 'two'."
+ },
+ {
+  "q": "Which is correct?",
+  "options": [
+   "We is going to the market.",
+   "We am going to the market.",
+   "We going to market are.",
+   "We are going to the market."
+  ],
+  "answer": 3,
+  "difficulty": "easy",
+  "explanation": "'We are'."
+ },
+ {
+  "q": "Which is correct?",
+  "options": [
+   "Three books is on the shelf.",
+   "There is three books on the shelf.",
+   "There are three books on the shelf.",
+   "There be three books on the shelf."
+  ],
+  "answer": 2,
+  "difficulty": "easy",
+  "explanation": "Plural subject."
+ },
+ {
+  "q": "Which is most concise?",
+  "options": [
+   "Kindly be waiting here please.",
+   "Please wait here.",
+   "Please wait here for the time being at this location.",
+   "Please kindly wait over here at this place."
+  ],
+  "answer": 1,
+  "difficulty": "medium",
+  "explanation": "Cut redundancy."
+ },
+ {
+  "q": "Which is best?",
+  "options": [
+   "The reason why is because he was ill.",
+   "The reason is because he was ill.",
+   "The reason is that he was ill.",
+   "The reason being is that he was ill."
+  ],
+  "answer": 2,
+  "difficulty": "medium",
+  "explanation": "'Reason is that'."
+ },
+ {
+  "q": "Which is parallel?",
+  "options": [
+   "She likes read and writing.",
+   "She likes reading and to write.",
+   "She likes to read and to write.",
+   "She likes to read and writing."
+  ],
+  "answer": 2,
+  "difficulty": "medium",
+  "explanation": "Same form for each item."
+ },
+ {
+  "q": "Reported speech: He said, 'I will help.'",
+  "options": [
+   "He said he helps.",
+   "He said that he would help.",
+   "He said that he will helped.",
+   "He said that I would help."
+  ],
+  "answer": 1,
+  "difficulty": "medium",
+  "explanation": "Backshift will → would."
+ },
+ {
+  "q": "Which has no double negative?",
+  "options": [
+   "He hasn't never visited.",
+   "He hardly ever visits.",
+   "He never doesn't visit.",
+   "He doesn't hardly ever visit."
+  ],
+  "answer": 1,
+  "difficulty": "medium",
+  "explanation": "'Hardly' is already negative."
+ },
+ {
+  "q": "Which is free of wordiness?",
+  "options": [
+   "We decided to leave.",
+   "We made a decision to leave at that point in time.",
+   "It was decided by us that we should leave.",
+   "We came to the conclusion that leaving was needed."
+  ],
+  "answer": 0,
+  "difficulty": "hard",
+  "explanation": "Shorter and active."
+ },
+ {
+  "q": "Which is parallel?",
+  "options": [
+   "He enjoys swimming, running, and cycling.",
+   "He enjoys swimming, running, and to cycle.",
+   "He enjoys swimming, to run, and cycling.",
+   "He enjoys to swim, running, and to cycle."
+  ],
+  "answer": 0,
+  "difficulty": "hard",
+  "explanation": "All gerunds."
+ },
+ {
+  "q": "Which is correct?",
+  "options": [
+   "Between the two options, I prefer the first.",
+   "Between the two options, I prefer the more first.",
+   "Among the two options, I prefer the first.",
+   "Amongst two options, I prefer the first."
+  ],
+  "answer": 0,
+  "difficulty": "hard",
+  "explanation": "'Between' for two."
+ },
+ {
+  "q": "Which avoids an unclear pronoun?",
+  "options": [
+   "Mia told Sara that her bag lost.",
+   "Mia told Sara that Mia's bag was lost.",
+   "Mia told Sara that she lost her bag.",
+   "Mia told Sara she lost it."
+  ],
+  "answer": 1,
+  "difficulty": "hard",
+  "explanation": "Repeat the noun when 'she' is ambiguous."
+ },
+ {
+  "q": "Best revision of 'The ball was kicked by me'?",
+  "options": [
+   "The ball kicked me.",
+   "Kicked by me was the ball.",
+   "I kicked the ball.",
+   "Me kicked the ball."
+  ],
+  "answer": 2,
+  "difficulty": "hard",
+  "explanation": "Active voice."
+ },
+ {
+  "q": "Which has a logical comparison?",
+  "options": [
+   "The weather in Shimla is cooler than in Kolkata.",
+   "The weather in Shimla is cooler than Kolkata's one.",
+   "The weather in Shimla is cooler than Kolkata.",
+   "Shimla's weather is cooler than Kolkata."
+  ],
+  "answer": 0,
+  "difficulty": "super-hard",
+  "explanation": "Compare weather with weather."
+ },
+ {
+  "q": "Which is free of redundancy?",
+  "options": [
+   "The final end results were surprising.",
+   "The results were completely and totally surprising.",
+   "The results were surprising.",
+   "The results were surprising and unexpected surprises."
+  ],
+  "answer": 2,
+  "difficulty": "super-hard",
+  "explanation": "Avoid repeating meaning."
+ },
+ {
+  "q": "Which uses 'whom' correctly?",
+  "options": [
+   "The candidate whom the board selected resigned.",
+   "The candidate whom selected the board resigned.",
+   "The candidate whom resigned was selected.",
+   "The candidate who the board selected whom resigned."
+  ],
+  "answer": 0,
+  "difficulty": "super-hard",
+  "explanation": "'Whom' is object of 'selected'."
+ },
+ {
+  "q": "Which has correct tense sequence?",
+  "options": [
+   "He said that he has already eaten.",
+   "He said that he already will eat.",
+   "He said that he had already eaten.",
+   "He said that he already eats."
+  ],
+  "answer": 2,
+  "difficulty": "super-hard",
+  "explanation": "Backshift in reported speech."
+ },
+ {
+  "q": "Which uses correlative conjunctions in parallel?",
+  "options": [
+   "She is both talented and with hard work.",
+   "She is both talented and works hard.",
+   "She is both talented and hardworking.",
+   "She is both talented and to work hard."
+  ],
+  "answer": 2,
+  "difficulty": "super-hard",
+  "explanation": "Match adjective with adjective."
+ }
+]

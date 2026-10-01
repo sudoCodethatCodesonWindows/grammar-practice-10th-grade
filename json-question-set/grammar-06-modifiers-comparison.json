@@ -1,0 +1,242 @@
+[
+ {
+  "q": "He runs ___.",
+  "options": [
+   "fastly",
+   "fast",
+   "fasted",
+   "fasten"
+  ],
+  "answer": 1,
+  "difficulty": "easy",
+  "explanation": "'Fast' is also an adverb."
+ },
+ {
+  "q": "She is the ___ girl in class.",
+  "options": [
+   "tallest",
+   "most tallest",
+   "taller",
+   "more tall"
+  ],
+  "answer": 0,
+  "difficulty": "easy",
+  "explanation": "Superlative."
+ },
+ {
+  "q": "This is ___ than that.",
+  "options": [
+   "best",
+   "gooder",
+   "more good",
+   "better"
+  ],
+  "answer": 3,
+  "difficulty": "easy",
+  "explanation": "Irregular comparative."
+ },
+ {
+  "q": "She sang ___.",
+  "options": [
+   "beautify",
+   "beautifully",
+   "beauty",
+   "beautiful"
+  ],
+  "answer": 1,
+  "difficulty": "easy",
+  "explanation": "Adverb modifies the verb."
+ },
+ {
+  "q": "It was a ___ day.",
+  "options": [
+   "sunnily",
+   "sun",
+   "sunnier than",
+   "sunny"
+  ],
+  "answer": 3,
+  "difficulty": "easy",
+  "explanation": "Adjective before a noun."
+ },
+ {
+  "q": "He is ___ of the two boys.",
+  "options": [
+   "the tallest",
+   "most tall",
+   "more tallest",
+   "the taller"
+  ],
+  "answer": 3,
+  "difficulty": "medium",
+  "explanation": "Comparative for two."
+ },
+ {
+  "q": "She plays piano ___ than her brother.",
+  "options": [
+   "better",
+   "more well",
+   "best",
+   "gooder"
+  ],
+  "answer": 0,
+  "difficulty": "medium",
+  "explanation": "Comparative of 'well'."
+ },
+ {
+  "q": "He did the work ___.",
+  "options": [
+   "care",
+   "carefulness",
+   "careful",
+   "carefully"
+  ],
+  "answer": 3,
+  "difficulty": "medium",
+  "explanation": "Adverb."
+ },
+ {
+  "q": "This is the ___ movie I have ever seen.",
+  "options": [
+   "worst",
+   "most bad",
+   "worse",
+   "badder"
+  ],
+  "answer": 0,
+  "difficulty": "medium",
+  "explanation": "Superlative of 'bad'."
+ },
+ {
+  "q": "It smells ___.",
+  "options": [
+   "goodly",
+   "well",
+   "good",
+   "gooder"
+  ],
+  "answer": 2,
+  "difficulty": "medium",
+  "explanation": "Linking verb + adjective."
+ },
+ {
+  "q": "Which has the modifier correctly placed?",
+  "options": [
+   "The man waved in the red hat to us.",
+   "In the red hat, the man was waved to us.",
+   "The man in the red hat waved to us.",
+   "The man waved to us in the red hat."
+  ],
+  "answer": 2,
+  "difficulty": "hard",
+  "explanation": "Keep modifiers next to what they describe."
+ },
+ {
+  "q": "Which uses 'further' correctly?",
+  "options": [
+   "Let's discuss this more farther tomorrow.",
+   "Let's discuss this farther tomorrow.",
+   "Let's discuss this furthest tomorrow.",
+   "Let's discuss this further tomorrow."
+  ],
+  "answer": 3,
+  "difficulty": "hard",
+  "explanation": "'Further' = additional/more."
+ },
+ {
+  "q": "Which is correct?",
+  "options": [
+   "He is more smarter than his brother.",
+   "He is intelligenter than his brother.",
+   "He is more intelligent than his brother.",
+   "He is most intelligent than his brother."
+  ],
+  "answer": 2,
+  "difficulty": "hard",
+  "explanation": "No double comparatives."
+ },
+ {
+  "q": "Which has the correct adjective order?",
+  "options": [
+   "an old lovely wooden small table",
+   "a wooden old small lovely table",
+   "a small wooden lovely old table",
+   "a lovely small old wooden table"
+  ],
+  "answer": 3,
+  "difficulty": "hard",
+  "explanation": "Opinion, size, age, material."
+ },
+ {
+  "q": "Which is correct?",
+  "options": [
+   "She is as tall as her mother.",
+   "She is as taller as her mother.",
+   "She is as tall than her mother.",
+   "She is so tall as her mother."
+  ],
+  "answer": 0,
+  "difficulty": "hard",
+  "explanation": "'As... as'."
+ },
+ {
+  "q": "Which fixes 'Walking home, the rain started'?",
+  "options": [
+   "Walking home, the rain's start was felt.",
+   "Walking home, the rain began.",
+   "Walking home, I felt the rain start.",
+   "Walking home, the rain started on me."
+  ],
+  "answer": 2,
+  "difficulty": "super-hard",
+  "explanation": "The subject must be the walker."
+ },
+ {
+  "q": "Which comparison is logical?",
+  "options": [
+   "Delhi's population is larger than Mumbai.",
+   "The population of Delhi is larger than that of Mumbai.",
+   "The population of Delhi is larger than Mumbai's one.",
+   "The population of Delhi is larger than Mumbai."
+  ],
+  "answer": 1,
+  "difficulty": "super-hard",
+  "explanation": "Compare like with like."
+ },
+ {
+  "q": "Which is correct?",
+  "options": [
+   "The more you practise, the better you get.",
+   "The most you practise, the best you get.",
+   "The more you practise, the more better you get.",
+   "More you practise, better you get."
+  ],
+  "answer": 0,
+  "difficulty": "super-hard",
+  "explanation": "Double comparative structure."
+ },
+ {
+  "q": "Which is correct?",
+  "options": [
+   "He is kinder of all the teachers.",
+   "He is kindest among than the teachers.",
+   "He is the kindest than all the teachers.",
+   "He is the kindest of all the teachers."
+  ],
+  "answer": 3,
+  "difficulty": "super-hard",
+  "explanation": "Superlative with 'of all'."
+ },
+ {
+  "q": "Which uses fewer/less correctly?",
+  "options": [
+   "Less water and less bottles were used.",
+   "Less water and fewer bottles were used.",
+   "Fewer water and fewer bottles was used.",
+   "Fewer water and less bottles were used."
+  ],
+  "answer": 1,
+  "difficulty": "super-hard",
+  "explanation": "Uncountable: less; countable: fewer."
+ }
+]

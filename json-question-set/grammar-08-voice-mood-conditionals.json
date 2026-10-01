@@ -1,0 +1,242 @@
+[
+ {
+  "q": "Passive of 'The cat ate the fish.'",
+  "options": [
+   "The fish eats the cat.",
+   "The cat was eaten by the fish.",
+   "The fish was eaten by the cat.",
+   "The fish ate by the cat."
+  ],
+  "answer": 2,
+  "difficulty": "easy",
+  "explanation": "Object becomes subject."
+ },
+ {
+  "q": "If it rains, I ___ stay home.",
+  "options": [
+   "will",
+   "did",
+   "would have",
+   "been"
+  ],
+  "answer": 0,
+  "difficulty": "easy",
+  "explanation": "First conditional."
+ },
+ {
+  "q": "The window ___ by Tom.",
+  "options": [
+   "was break",
+   "was broken",
+   "is break",
+   "broke"
+  ],
+  "answer": 1,
+  "difficulty": "easy",
+  "explanation": "Passive uses a past participle."
+ },
+ {
+  "q": "Which is an imperative sentence?",
+  "options": [
+   "Did he close the door?",
+   "Close the door.",
+   "The door closed.",
+   "He closed the door."
+  ],
+  "answer": 1,
+  "difficulty": "easy",
+  "explanation": "Gives a command."
+ },
+ {
+  "q": "If I ___ rich, I would travel.",
+  "options": [
+   "have been",
+   "will be",
+   "were",
+   "am"
+  ],
+  "answer": 2,
+  "difficulty": "easy",
+  "explanation": "Hypothetical: 'were'."
+ },
+ {
+  "q": "Passive of 'They are building a bridge.'",
+  "options": [
+   "A bridge was being build.",
+   "A bridge has built.",
+   "A bridge is built being.",
+   "A bridge is being built."
+  ],
+  "answer": 3,
+  "difficulty": "medium",
+  "explanation": "Present continuous passive."
+ },
+ {
+  "q": "If she had studied, she ___ passed.",
+  "options": [
+   "had",
+   "would have",
+   "will have",
+   "would"
+  ],
+  "answer": 1,
+  "difficulty": "medium",
+  "explanation": "Third conditional."
+ },
+ {
+  "q": "I suggest that he ___ early.",
+  "options": [
+   "is leaving",
+   "leave",
+   "left",
+   "leaves"
+  ],
+  "answer": 1,
+  "difficulty": "medium",
+  "explanation": "Subjunctive uses the base form."
+ },
+ {
+  "q": "Which sentence is passive?",
+  "options": [
+   "She was sending a letter.",
+   "She will send the letter.",
+   "The letter was sent yesterday.",
+   "She sent the letter yesterday."
+  ],
+  "answer": 2,
+  "difficulty": "medium",
+  "explanation": "Subject receives the action."
+ },
+ {
+  "q": "Unless you ___ hard, you will fail.",
+  "options": [
+   "will work",
+   "worked",
+   "work",
+   "don't work"
+  ],
+  "answer": 2,
+  "difficulty": "medium",
+  "explanation": "'Unless' already means 'if not'."
+ },
+ {
+  "q": "Passive of 'People say that he is wise.'",
+  "options": [
+   "He is said to be wise.",
+   "He said to be wise.",
+   "He is said being wise.",
+   "He says to be wise."
+  ],
+  "answer": 0,
+  "difficulty": "hard",
+  "explanation": "Impersonal passive."
+ },
+ {
+  "q": "If I ___ known earlier, I would have helped.",
+  "options": [
+   "did",
+   "have",
+   "would",
+   "had"
+  ],
+  "answer": 3,
+  "difficulty": "hard",
+  "explanation": "Past perfect in the if-clause."
+ },
+ {
+  "q": "Which is subjunctive?",
+  "options": [
+   "It is essential that she is on time.",
+   "It is essential that she will be on time.",
+   "It is essential that she be on time.",
+   "It is essential she being on time."
+  ],
+  "answer": 2,
+  "difficulty": "hard",
+  "explanation": "Base form 'be'."
+ },
+ {
+  "q": "Passive of 'Who wrote this?'",
+  "options": [
+   "By whom was this written?",
+   "Who was this written?",
+   "Whom wrote this?",
+   "By who this was written?"
+  ],
+  "answer": 0,
+  "difficulty": "hard",
+  "explanation": "Question passive with 'by whom'."
+ },
+ {
+  "q": "Which is a third conditional?",
+  "options": [
+   "If I leave earlier, I will catch the train.",
+   "If I had left earlier, I would catch the train.",
+   "If I had left earlier, I would have caught the train.",
+   "If I left earlier, I would catch the train."
+  ],
+  "answer": 2,
+  "difficulty": "hard",
+  "explanation": "had + pp, would have + pp."
+ },
+ {
+  "q": "Which is correct?",
+  "options": [
+   "Would you need help, call me.",
+   "Should you needed help, call me.",
+   "If you should needing help, call me.",
+   "Should you need help, call me."
+  ],
+  "answer": 3,
+  "difficulty": "super-hard",
+  "explanation": "Inverted first conditional."
+ },
+ {
+  "q": "Passive of 'He made me wait.'",
+  "options": [
+   "I was made wait by him.",
+   "I was made to wait by him.",
+   "I was make to wait.",
+   "I made to wait by him."
+  ],
+  "answer": 1,
+  "difficulty": "super-hard",
+  "explanation": "Passive adds 'to'."
+ },
+ {
+  "q": "Which is correct?",
+  "options": [
+   "Had it not rained, the match would have gone ahead.",
+   "Hadn't it rained, the match would have gone.",
+   "If it not had rained, the match would go.",
+   "Had it not rained, the match will go ahead."
+  ],
+  "answer": 0,
+  "difficulty": "super-hard",
+  "explanation": "Inverted third conditional."
+ },
+ {
+  "q": "Which uses the mandative subjunctive?",
+  "options": [
+   "The board demanded that he resign.",
+   "The board demanded him to resigning.",
+   "The board demanded that he resigns.",
+   "The board demanded that he resigned."
+  ],
+  "answer": 0,
+  "difficulty": "super-hard",
+  "explanation": "Base form after 'demand that'."
+ },
+ {
+  "q": "Passive of 'Someone must have taken my pen.'",
+  "options": [
+   "My pen must has been taken.",
+   "My pen must have been taken.",
+   "My pen must been taken.",
+   "My pen must have taken."
+  ],
+  "answer": 1,
+  "difficulty": "super-hard",
+  "explanation": "modal + have been + pp."
+ }
+]

@@ -1,0 +1,962 @@
+[
+ {
+  "q": "Choose the correct word: He ___ a book yesterday.",
+  "options": [
+   "reads",
+   "read",
+   "reading",
+   "readed"
+  ],
+  "answer": 1,
+  "difficulty": "easy",
+  "explanation": "Past tense of 'read' is 'read'."
+ },
+ {
+  "q": "Which sentence is correct?",
+  "options": [
+   "Me and him went.",
+   "He and I went.",
+   "Him and I went.",
+   "Me and he went."
+  ],
+  "answer": 1,
+  "difficulty": "easy",
+  "explanation": "Use subject pronouns as the subject."
+ },
+ {
+  "q": "Choose the correct plural of 'mouse'.",
+  "options": [
+   "mouses",
+   "mice",
+   "mices",
+   "mouse"
+  ],
+  "answer": 1,
+  "difficulty": "easy",
+  "explanation": "Irregular plural."
+ },
+ {
+  "q": "Which word is a noun?",
+  "options": [
+   "quickly",
+   "happiness",
+   "run",
+   "beautiful"
+  ],
+  "answer": 1,
+  "difficulty": "easy",
+  "explanation": "'Happiness' names a thing/idea."
+ },
+ {
+  "q": "In 'The tall boy ran', which word is an adjective?",
+  "options": [
+   "tall",
+   "boy",
+   "ran",
+   "The"
+  ],
+  "answer": 0,
+  "difficulty": "easy",
+  "explanation": "'Tall' describes the noun 'boy'."
+ },
+ {
+  "q": "Choose the correct word: They ___ playing football now.",
+  "options": [
+   "is",
+   "am",
+   "are",
+   "be"
+  ],
+  "answer": 2,
+  "difficulty": "easy",
+  "explanation": "'They' takes 'are'."
+ },
+ {
+  "q": "Which sentence is correct?",
+  "options": [
+   "Its raining today.",
+   "It's raining today.",
+   "It's' raining today.",
+   "Its, raining today."
+  ],
+  "answer": 1,
+  "difficulty": "easy",
+  "explanation": "It's = it is."
+ },
+ {
+  "q": "Choose the correct word: I saw ___ elephant at the zoo.",
+  "options": [
+   "a",
+   "an",
+   "at",
+   "on"
+  ],
+  "answer": 1,
+  "difficulty": "easy",
+  "explanation": "'An' goes before a vowel sound."
+ },
+ {
+  "q": "What is the past tense of 'go'?",
+  "options": [
+   "goed",
+   "went",
+   "gone",
+   "going"
+  ],
+  "answer": 1,
+  "difficulty": "easy",
+  "explanation": "Irregular verb."
+ },
+ {
+  "q": "Choose the correct word: She is ___ than her sister.",
+  "options": [
+   "tall",
+   "taller",
+   "tallest",
+   "more tall"
+  ],
+  "answer": 1,
+  "difficulty": "easy",
+  "explanation": "Comparative of a short adjective."
+ },
+ {
+  "q": "Which word is a verb?",
+  "options": [
+   "jump",
+   "jumper",
+   "jumpy",
+   "jumpiness"
+  ],
+  "answer": 0,
+  "difficulty": "easy",
+  "explanation": "'Jump' is an action."
+ },
+ {
+  "q": "Choose the correct word: The dog wagged ___ tail.",
+  "options": [
+   "it's",
+   "its",
+   "its'",
+   "it"
+  ],
+  "answer": 1,
+  "difficulty": "easy",
+  "explanation": "'Its' shows possession."
+ },
+ {
+  "q": "Which sentence is a question?",
+  "options": [
+   "You are late.",
+   "Are you late?",
+   "Be on time.",
+   "Don't be late!"
+  ],
+  "answer": 1,
+  "difficulty": "easy",
+  "explanation": "Inverted word order with '?'."
+ },
+ {
+  "q": "Choose the correct word: We ___ to the park last Sunday.",
+  "options": [
+   "go",
+   "goes",
+   "went",
+   "going"
+  ],
+  "answer": 2,
+  "difficulty": "easy",
+  "explanation": "'Last Sunday' signals past tense."
+ },
+ {
+  "q": "'Beautiful' is a(n) ...",
+  "options": [
+   "noun",
+   "verb",
+   "adjective",
+   "adverb"
+  ],
+  "answer": 2,
+  "difficulty": "easy",
+  "explanation": "It describes a noun."
+ },
+ {
+  "q": "Choose the correct word: There ___ many students in the hall.",
+  "options": [
+   "is",
+   "are",
+   "was a",
+   "be"
+  ],
+  "answer": 1,
+  "difficulty": "easy",
+  "explanation": "Plural subject takes 'are'."
+ },
+ {
+  "q": "Which word is a conjunction?",
+  "options": [
+   "but",
+   "table",
+   "quick",
+   "under"
+  ],
+  "answer": 0,
+  "difficulty": "easy",
+  "explanation": "'But' joins clauses."
+ },
+ {
+  "q": "Choose the correct word: I am good ___ maths.",
+  "options": [
+   "in",
+   "at",
+   "on",
+   "by"
+  ],
+  "answer": 1,
+  "difficulty": "easy",
+  "explanation": "'Good at' is the fixed phrase."
+ },
+ {
+  "q": "Which sentence uses capital letters correctly?",
+  "options": [
+   "my friend lives in paris.",
+   "My friend lives in Paris.",
+   "My Friend lives in paris.",
+   "my Friend lives in Paris."
+  ],
+  "answer": 1,
+  "difficulty": "easy",
+  "explanation": "Capitalise sentence starts and proper nouns."
+ },
+ {
+  "q": "What is the plural of 'city'?",
+  "options": [
+   "citys",
+   "cities",
+   "cityes",
+   "citis"
+  ],
+  "answer": 1,
+  "difficulty": "easy",
+  "explanation": "Consonant + y becomes -ies."
+ },
+ {
+  "q": "Choose the correct word: He didn't ___ the answer.",
+  "options": [
+   "know",
+   "knew",
+   "known",
+   "knows"
+  ],
+  "answer": 0,
+  "difficulty": "easy",
+  "explanation": "After 'didn't', use the base form."
+ },
+ {
+  "q": "Which word is a preposition?",
+  "options": [
+   "under",
+   "slowly",
+   "table",
+   "happy"
+  ],
+  "answer": 0,
+  "difficulty": "easy",
+  "explanation": "'Under' shows position."
+ },
+ {
+  "q": "Choose the correct word: Maria lost ___ keys.",
+  "options": [
+   "his",
+   "her",
+   "their's",
+   "she"
+  ],
+  "answer": 1,
+  "difficulty": "easy",
+  "explanation": "Possessive adjective for Maria."
+ },
+ {
+  "q": "Choose the correct word: She ___ her homework every evening.",
+  "options": [
+   "do",
+   "does",
+   "doing",
+   "done"
+  ],
+  "answer": 1,
+  "difficulty": "easy",
+  "explanation": "Third person singular present."
+ },
+ {
+  "q": "Which sentence is correct?",
+  "options": [
+   "He don't like tea.",
+   "He doesn't like tea.",
+   "He not like tea.",
+   "He doesn't likes tea."
+  ],
+  "answer": 1,
+  "difficulty": "easy",
+  "explanation": "'Doesn't' + base verb."
+ },
+ {
+  "q": "Choose the correct word: The team ___ celebrating its victory.",
+  "options": [
+   "are",
+   "is",
+   "were",
+   "be"
+  ],
+  "answer": 1,
+  "difficulty": "medium",
+  "explanation": "Collective noun treated as one unit."
+ },
+ {
+  "q": "Choose the correct word: Neither the teacher nor the students ___ present.",
+  "options": [
+   "was",
+   "were",
+   "is",
+   "has"
+  ],
+  "answer": 1,
+  "difficulty": "medium",
+  "explanation": "Verb agrees with the nearer subject (students)."
+ },
+ {
+  "q": "Which sentence uses an apostrophe correctly?",
+  "options": [
+   "The dogs bone is gone.",
+   "The dog's bone is gone.",
+   "The dogs' bone's gone.",
+   "The dog's' bone is gone."
+  ],
+  "answer": 1,
+  "difficulty": "medium",
+  "explanation": "Singular possessive: dog's."
+ },
+ {
+  "q": "Choose the correct word: The weather will ___ our plans.",
+  "options": [
+   "effect",
+   "affect",
+   "affects",
+   "effects"
+  ],
+  "answer": 1,
+  "difficulty": "medium",
+  "explanation": "'Affect' is the usual verb meaning 'influence'."
+ },
+ {
+  "q": "Which sentence is a compound sentence?",
+  "options": [
+   "I ate, and she drank.",
+   "Because I ate, she drank.",
+   "I ate.",
+   "Eating, she drank."
+  ],
+  "answer": 0,
+  "difficulty": "medium",
+  "explanation": "Two independent clauses joined by 'and'."
+ },
+ {
+  "q": "Choose the correct word: I wish I ___ taller.",
+  "options": [
+   "was",
+   "were",
+   "am",
+   "be"
+  ],
+  "answer": 1,
+  "difficulty": "medium",
+  "explanation": "Subjunctive for wishes."
+ },
+ {
+  "q": "Which sentence is correct?",
+  "options": [
+   "She lay the book on the table.",
+   "She laid the book on the table.",
+   "She lied the book on the table.",
+   "She lain the book on the table."
+  ],
+  "answer": 1,
+  "difficulty": "medium",
+  "explanation": "'Lay' (to put) has past 'laid'."
+ },
+ {
+  "q": "Choose the correct word: He is the ___ of the two brothers.",
+  "options": [
+   "taller",
+   "tallest",
+   "more tall",
+   "most tall"
+  ],
+  "answer": 0,
+  "difficulty": "medium",
+  "explanation": "Comparative for two things."
+ },
+ {
+  "q": "Which sentence is in the present perfect?",
+  "options": [
+   "She has finished.",
+   "She finished.",
+   "She is finishing.",
+   "She will finish."
+  ],
+  "answer": 0,
+  "difficulty": "medium",
+  "explanation": "has/have + past participle."
+ },
+ {
+  "q": "Choose the correct word: The principal, along with the teachers, ___ attending.",
+  "options": [
+   "are",
+   "is",
+   "were",
+   "have been"
+  ],
+  "answer": 1,
+  "difficulty": "medium",
+  "explanation": "'Along with' doesn't make the subject plural."
+ },
+ {
+  "q": "Which word is an interjection?",
+  "options": [
+   "Wow!",
+   "Quickly",
+   "Because",
+   "Under"
+  ],
+  "answer": 0,
+  "difficulty": "medium",
+  "explanation": "Interjections express emotion."
+ },
+ {
+  "q": "Which sentence is correct?",
+  "options": [
+   "Whom is calling?",
+   "Who is calling?",
+   "Whose is calling?",
+   "Whom are calling?"
+  ],
+  "answer": 1,
+  "difficulty": "medium",
+  "explanation": "'Who' is the subject."
+ },
+ {
+  "q": "A comma splice is...",
+  "options": [
+   "two independent clauses joined only by a comma",
+   "a missing comma in a list",
+   "a comma before 'and' in a list",
+   "a comma after an introductory word"
+  ],
+  "answer": 0,
+  "difficulty": "medium",
+  "explanation": "Use a period, semicolon or conjunction instead."
+ },
+ {
+  "q": "Choose the correct form: If it rains tomorrow, we ___ indoors.",
+  "options": [
+   "stay",
+   "will stay",
+   "stayed",
+   "would stayed"
+  ],
+  "answer": 1,
+  "difficulty": "medium",
+  "explanation": "First conditional: if + present, will + base."
+ },
+ {
+  "q": "Which sentence is correct?",
+  "options": [
+   "I have went there.",
+   "I have gone there.",
+   "I have go there.",
+   "I has gone there."
+  ],
+  "answer": 1,
+  "difficulty": "medium",
+  "explanation": "Present perfect uses the past participle 'gone'."
+ },
+ {
+  "q": "He said, 'I am tired.' Reported speech: He said that he ___ tired.",
+  "options": [
+   "is",
+   "was",
+   "were",
+   "be"
+  ],
+  "answer": 1,
+  "difficulty": "medium",
+  "explanation": "Backshift to past tense."
+ },
+ {
+  "q": "In 'She sings beautifully', which word is an adverb?",
+  "options": [
+   "She",
+   "sings",
+   "beautifully",
+   "None"
+  ],
+  "answer": 2,
+  "difficulty": "medium",
+  "explanation": "It modifies the verb 'sings'."
+ },
+ {
+  "q": "Choose the correct word: This is ___ than I expected.",
+  "options": [
+   "more easy",
+   "easier",
+   "easiest",
+   "most easy"
+  ],
+  "answer": 1,
+  "difficulty": "medium",
+  "explanation": "Comparative of 'easy'."
+ },
+ {
+  "q": "Which sentence has correct agreement?",
+  "options": [
+   "The list of items are long.",
+   "The list of items is long.",
+   "The lists of item is long.",
+   "The list of items were long."
+  ],
+  "answer": 1,
+  "difficulty": "medium",
+  "explanation": "Subject is 'list' (singular)."
+ },
+ {
+  "q": "Hardly had he arrived ___ it started to rain.",
+  "options": [
+   "than",
+   "when",
+   "then",
+   "as"
+  ],
+  "answer": 1,
+  "difficulty": "medium",
+  "explanation": "'Hardly... when' is the correct pair."
+ },
+ {
+  "q": "Which hyphen use is correct?",
+  "options": [
+   "A well-known author",
+   "A well known-author",
+   "A well-known-author",
+   "A-well known author"
+  ],
+  "answer": 0,
+  "difficulty": "medium",
+  "explanation": "Compound adjective before a noun."
+ },
+ {
+  "q": "Choose the correct word: Mathematics ___ my favourite subject.",
+  "options": [
+   "are",
+   "is",
+   "were",
+   "have"
+  ],
+  "answer": 1,
+  "difficulty": "medium",
+  "explanation": "Singular subject despite the -s."
+ },
+ {
+  "q": "Choose the correct form: I look forward to ___ you.",
+  "options": [
+   "see",
+   "seeing",
+   "saw",
+   "seen"
+  ],
+  "answer": 1,
+  "difficulty": "medium",
+  "explanation": "'To' here is a preposition, so use -ing."
+ },
+ {
+  "q": "Which sentence is a second conditional?",
+  "options": [
+   "If I won, I would travel.",
+   "If I win, I will travel.",
+   "If I had won, I would have travelled.",
+   "I travel if I win."
+  ],
+  "answer": 0,
+  "difficulty": "medium",
+  "explanation": "if + past simple, would + base."
+ },
+ {
+  "q": "What type of clause is 'who lives next door'?",
+  "options": [
+   "Independent",
+   "Relative (adjective) clause",
+   "Noun phrase only",
+   "Adverbial phrase"
+  ],
+  "answer": 1,
+  "difficulty": "medium",
+  "explanation": "It describes a noun."
+ },
+ {
+  "q": "Choose the correct word: She is interested ___ painting.",
+  "options": [
+   "on",
+   "at",
+   "in",
+   "with"
+  ],
+  "answer": 2,
+  "difficulty": "medium",
+  "explanation": "'Interested in'."
+ },
+ {
+  "q": "Choose the correct word: The books ___ on the shelf were mine.",
+  "options": [
+   "lay",
+   "laying",
+   "lying",
+   "lain"
+  ],
+  "answer": 2,
+  "difficulty": "medium",
+  "explanation": "Present participle of 'lie'."
+ },
+ {
+  "q": "Choose the correct word: The prize was shared ___ the three winners.",
+  "options": [
+   "between",
+   "among",
+   "amongst of",
+   "into"
+  ],
+  "answer": 1,
+  "difficulty": "medium",
+  "explanation": "'Among' for three or more."
+ },
+ {
+  "q": "Choose the correct word: She speaks English fluently, ___ she has never lived abroad.",
+  "options": [
+   "although",
+   "because",
+   "so",
+   "unless"
+  ],
+  "answer": 0,
+  "difficulty": "medium",
+  "explanation": "Shows contrast."
+ },
+ {
+  "q": "Which sentence is in the active voice?",
+  "options": [
+   "The report was written by Sam.",
+   "Sam wrote the report.",
+   "The report has been written.",
+   "The report is being written."
+  ],
+  "answer": 1,
+  "difficulty": "medium",
+  "explanation": "The subject performs the action."
+ },
+ {
+  "q": "Which sentence is correct?",
+  "options": [
+   "Neither the manager nor the employees was informed.",
+   "Neither the manager nor the employees were informed.",
+   "Neither the manager nor the employees is informed.",
+   "Neither the manager nor the employees has informed."
+  ],
+  "answer": 1,
+  "difficulty": "hard",
+  "explanation": "Nearer subject (employees) is plural."
+ },
+ {
+  "q": "Choose the correct word: The reason is ___ he was late.",
+  "options": [
+   "because",
+   "that",
+   "why",
+   "due"
+  ],
+  "answer": 1,
+  "difficulty": "hard",
+  "explanation": "After 'the reason is', use 'that'."
+ },
+ {
+  "q": "Identify the error(s): 'Me and my friends goes to the gym.'",
+  "options": [
+   "Me and my friends",
+   "goes",
+   "to the gym",
+   "Both 'Me and my friends' and 'goes'"
+  ],
+  "answer": 3,
+  "difficulty": "hard",
+  "explanation": "Should be 'My friends and I go'."
+ },
+ {
+  "q": "Which sentence uses 'whom' correctly?",
+  "options": [
+   "Whom did you see?",
+   "Whom is at the door?",
+   "Whom called you?",
+   "Whom are you?"
+  ],
+  "answer": 0,
+  "difficulty": "hard",
+  "explanation": "'Whom' is the object of 'see'."
+ },
+ {
+  "q": "Which sentence contains a split infinitive?",
+  "options": [
+   "She decided to quickly leave.",
+   "She decided to leave quickly.",
+   "She decided leaving.",
+   "She decided on leaving."
+  ],
+  "answer": 0,
+  "difficulty": "hard",
+  "explanation": "An adverb sits between 'to' and 'leave'."
+ },
+ {
+  "q": "Choose the correct mixed conditional:",
+  "options": [
+   "If I had studied, I would be a doctor now.",
+   "If I studied, I would have been a doctor now.",
+   "If I would study, I am a doctor.",
+   "If I had study, I would be doctor."
+  ],
+  "answer": 0,
+  "difficulty": "hard",
+  "explanation": "Past condition, present result."
+ },
+ {
+  "q": "Not only did he lie, ___ he also cheated.",
+  "options": [
+   "but",
+   "and",
+   "so",
+   "than"
+  ],
+  "answer": 0,
+  "difficulty": "hard",
+  "explanation": "'Not only... but also'."
+ },
+ {
+  "q": "Which sentence is correct?",
+  "options": [
+   "The number of students are rising.",
+   "The number of students is rising.",
+   "A number of student is rising.",
+   "The numbers of students is rising."
+  ],
+  "answer": 1,
+  "difficulty": "hard",
+  "explanation": "'The number of' takes a singular verb."
+ },
+ {
+  "q": "Which sentence uses 'fewer/less' correctly?",
+  "options": [
+   "There are less cars today.",
+   "There are fewer cars today.",
+   "There is fewer traffic today.",
+   "There is less cars today."
+  ],
+  "answer": 1,
+  "difficulty": "hard",
+  "explanation": "'Fewer' with countable nouns."
+ },
+ {
+  "q": "What is 'that' in 'I know that he left'?",
+  "options": [
+   "Pronoun",
+   "Subordinating conjunction",
+   "Adjective",
+   "Adverb"
+  ],
+  "answer": 1,
+  "difficulty": "hard",
+  "explanation": "It introduces a noun clause."
+ },
+ {
+  "q": "Which sentence is correct?",
+  "options": [
+   "Whom do you think won?",
+   "Who do you think won?",
+   "Whom do you think wins?",
+   "Who you think won?"
+  ],
+  "answer": 1,
+  "difficulty": "hard",
+  "explanation": "'Who' is the subject of 'won'."
+ },
+ {
+  "q": "Which sentence means you don't care at all?",
+  "options": [
+   "I could care less.",
+   "I couldn't care less.",
+   "I could not cared less.",
+   "I couldn't cares less."
+  ],
+  "answer": 1,
+  "difficulty": "hard",
+  "explanation": "Negative form gives the intended meaning."
+ },
+ {
+  "q": "Which sentence uses a semicolon correctly?",
+  "options": [
+   "However; she left.",
+   "She was tired; however, she kept working.",
+   "She was tired, however; she kept working.",
+   "She was; tired however, she worked."
+  ],
+  "answer": 1,
+  "difficulty": "hard",
+  "explanation": "Semicolon before a conjunctive adverb."
+ },
+ {
+  "q": "Choose the correct word: He insisted that she ___ present.",
+  "options": [
+   "is",
+   "be",
+   "was",
+   "being"
+  ],
+  "answer": 1,
+  "difficulty": "hard",
+  "explanation": "Subjunctive after 'insist that'."
+ },
+ {
+  "q": "Which sentence uses the past perfect correctly?",
+  "options": [
+   "When I arrived, the train had left.",
+   "When I arrived, the train has left.",
+   "When I had arrived, the train left.",
+   "When I arrive, the train had left."
+  ],
+  "answer": 0,
+  "difficulty": "hard",
+  "explanation": "Earlier past action uses had + participle."
+ },
+ {
+  "q": "'Running quickly, her hat fell off.' This is a...",
+  "options": [
+   "dangling modifier",
+   "correct sentence",
+   "run-on",
+   "fragment"
+  ],
+  "answer": 0,
+  "difficulty": "hard",
+  "explanation": "The hat wasn't running."
+ },
+ {
+  "q": "Which is a sentence fragment?",
+  "options": [
+   "Because it was raining.",
+   "It was raining.",
+   "It rained.",
+   "Rain fell."
+  ],
+  "answer": 0,
+  "difficulty": "hard",
+  "explanation": "A dependent clause can't stand alone."
+ },
+ {
+  "q": "Which is a run-on sentence?",
+  "options": [
+   "I like tea she likes coffee.",
+   "I like tea, and she likes coffee.",
+   "I like tea; she likes coffee.",
+   "I like tea. She likes coffee."
+  ],
+  "answer": 0,
+  "difficulty": "hard",
+  "explanation": "Two clauses with no punctuation or conjunction."
+ },
+ {
+  "q": "Choose the correct word: The scissors ___ on the table.",
+  "options": [
+   "is",
+   "are",
+   "was a",
+   "has"
+  ],
+  "answer": 1,
+  "difficulty": "hard",
+  "explanation": "'Scissors' is plural in form."
+ },
+ {
+  "q": "Choose the correct word: She's one of those people who ___ always late.",
+  "options": [
+   "is",
+   "are",
+   "was",
+   "be"
+  ],
+  "answer": 1,
+  "difficulty": "hard",
+  "explanation": "'Who' refers to 'people' (plural)."
+ },
+ {
+  "q": "Which sentence uses an appositive correctly?",
+  "options": [
+   "My brother, a doctor, lives abroad.",
+   "My brother a doctor, lives abroad.",
+   "My brother, a doctor lives abroad.",
+   "My, brother a doctor, lives abroad."
+  ],
+  "answer": 0,
+  "difficulty": "hard",
+  "explanation": "Set off with commas on both sides."
+ },
+ {
+  "q": "Choose the correct word: Had I known, I ___ come.",
+  "options": [
+   "would have",
+   "will have",
+   "would",
+   "had"
+  ],
+  "answer": 0,
+  "difficulty": "hard",
+  "explanation": "Third conditional with inversion."
+ },
+ {
+  "q": "Which sentence has a gerund phrase as its subject?",
+  "options": [
+   "Reading novels relaxes me.",
+   "I like to read novels.",
+   "He is reading novels.",
+   "Novels read well."
+  ],
+  "answer": 0,
+  "difficulty": "hard",
+  "explanation": "'Reading novels' acts as a noun."
+ },
+ {
+  "q": "Which sentence has parallel structure?",
+  "options": [
+   "He is smart, funny, and has kindness.",
+   "He is smart, funny, and kind.",
+   "He is smart, funny, and with kindness.",
+   "He is smart, funny, and being kind."
+  ],
+  "answer": 1,
+  "difficulty": "hard",
+  "explanation": "All items are adjectives."
+ },
+ {
+  "q": "Which uses the past tense of 'lie' (recline) correctly?",
+  "options": [
+   "Yesterday I lay on the couch.",
+   "Yesterday I laid on the couch.",
+   "Yesterday I lied on the couch.",
+   "Yesterday I lain on the couch."
+  ],
+  "answer": 0,
+  "difficulty": "hard",
+  "explanation": "lie → lay → lain."
+ }
+]

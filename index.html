@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Grammar Quest – 10th Grade</title>
+<style>
+:root{--bg:#0f1226;--card:#1a1f3d;--txt:#eef0ff;--mut:#9aa3d6;--acc:#7c8cff;--ok:#38d996;--bad:#ff6b81}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,Segoe UI,sans-serif;background:linear-gradient(160deg,#0f1226,#1b1040);color:var(--txt);min-height:100vh;display:flex;justify-content:center;padding:20px}
+.app{width:100%;max-width:720px}
+h1{margin:0 0 4px;font-size:1.6rem}
+.sub{color:var(--mut);margin-bottom:16px}
+.card{background:var(--card);border-radius:16px;padding:20px;margin-bottom:16px;box-shadow:0 8px 24px #0005}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+select,button,input[type=text]{font:inherit;border-radius:10px;border:1px solid #2f3668;background:#12163a;color:var(--txt);padding:10px 14px}
+button{cursor:pointer;background:var(--acc);border:0;color:#fff;font-weight:600}
+button.ghost{background:#12163a;border:1px solid #2f3668;color:var(--txt)}
+button:hover{filter:brightness(1.1)}
+.q{font-size:1.2rem;margin:10px 0 16px;line-height:1.5}
+.opt{display:block;width:100%;text-align:left;margin:8px 0;background:#12163a;border:1px solid #2f3668;color:var(--txt)}
+.opt.ok{background:var(--ok);color:#06251a}.opt.bad{background:var(--bad);color:#2b0610}
+.exp{margin-top:12px;color:var(--mut)}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;text-align:center}
+.stat b{display:block;font-size:1.5rem}.stat span{color:var(--mut);font-size:.8rem}
+.tag{font-size:.75rem;padding:3px 8px;border-radius:99px;background:#2a3070;color:var(--mut)}
+table{width:100%;border-collapse:collapse}td,th{padding:6px;text-align:left;border-bottom:1px solid #2f3668;font-size:.9rem}
+.hide{display:none}.bar{height:6px;background:#12163a;border-radius:9px;margin-top:8px;overflow:hidden}.bar i{display:block;height:100%;width:0;background:var(--acc);transition:width .3s}small{color:var(--mut)}
+textarea{width:100%;min-height:90px;background:#12163a;color:var(--txt);border:1px solid #2f3668;border-radius:10px;padding:10px;font-family:monospace}
+</style>
+</head>
+<body>
+<div class="app">
+  <h1>✍️ Grammar Quest</h1>
+  <div class="sub">10th-grade grammar practice · private scoreboard</div>
+
+  <div class="card" id="login">
+    <div class="row">
+      <input type="text" id="uname" placeholder="Your name"><input type="password" id="upin" inputmode="numeric" maxlength="4" placeholder="4-digit PIN" style="width:130px">
+      <button id="loginBtn">Log in / Sign up</button><small id="loginMsg" style="color:var(--bad)"></small>
+      
+    </div>
+  </div>
+
+  <div class="card hide" id="statsCard">
+    <div class="stats">
+      <div class="stat"><b id="sDays">0</b><span>Days logged in</span></div>
+      <div class="stat"><b id="sOk" style="color:var(--ok)">0</b><span>Correct</span></div>
+      <div class="stat"><b id="sBad" style="color:var(--bad)">0</b><span>Wrong</span></div>
+      <div class="stat"><b id="sAcc">0%</b><span>Accuracy</span></div>
+    </div>
+    <small id="streak"></small><br><button class="ghost" id="outBtn" style="margin-top:8px">Log out</button>
+  </div>
+
+  <div class="card hide" id="quizCard">
+    <div class="row">
+      <label>Source
+        <select id="mode"><option value="offline">Offline (dataset)</option><option value="online">Online (API)</option></select>
+      </label>
+      <label>Difficulty
+        <select id="diff"><option value="all">All</option><option value="easy">Easy</option><option value="medium">Medium</option><option value="hard">Hard</option></select>
+      </label>
+      <label>Round <select id="rlen"><option value="5">5 Qs</option><option value="10" selected>10 Qs</option><option value="20">20 Qs</option></select></label>
+      <label>Timer <select id="tlim"><option value="0">Off</option><option value="15">15s</option><option value="30" selected>30s</option><option value="60">60s</option></select></label>
+      <button class="ghost" id="setBtn">⚙ Dataset / API</button>
+    </div>
+    <div id="msg"><small></small></div>
+    <hr style="border-color:#2f3668">
+    <div class="row" style="justify-content:space-between"><b id="qNum"></b><b id="timer"></b></div><div class="bar"><i id="barI"></i></div><br><span class="tag" id="qTag"></span>
+    <div class="q" id="qText">Press Start!</div>
+    <div id="opts"></div>
+    <div class="exp" id="exp"></div>
+    <div class="row" style="margin-top:12px"><button id="nextBtn">Start</button></div>
+  </div>
+
+  <div class="card hide" id="sumCard"><b>📊 Round summary</b><div id="sumBody"></div></div>
+
+  <div class="card hide" id="setCard">
+    <b>Add questions (offline dataset)</b><br>
+    <small>Paste a JSON array, or upload a .json file. Format:<br>
+    <code>[{"q":"Choose the correct word: ___","options":["a","b","c","d"],"answer":0,"difficulty":"easy","explanation":"..."}]</code><br>
+    <code>answer</code> = index (0-based) of the correct option. Imported questions are saved in your browser.</small>
+    <textarea id="jsonIn"></textarea>
+    <div class="row" style="margin-top:8px">
+      <button id="addBtn">Add pasted JSON</button>
+      <input type="file" id="file" accept=".json">
+      <button class="ghost" id="clearBtn">Remove imported</button>
+    </div><br>
+    <b>Online API (optional)</b><br>
+    <small>URL returning JSON in the same format (array). If it fails, the app falls back to offline questions.</small>
+    <div class="row" style="margin-top:8px"><input type="text" id="apiUrl" placeholder="https://your-api/questions.json" style="flex:1"><button id="saveApi">Save</button></div>
+  </div>
+
+  <div class="card hide" id="boardCard">
+    <b>Private scoreboard</b> <small>(stored only in this browser)</small>
+    <table id="board"><thead><tr><th>User</th><th>Days</th><th>✔</th><th>✘</th><th>Acc.</th></tr></thead><tbody></tbody></table>
+  </div>
+</div>
+
+<script>
+const BUILTIN=[
+// easy
+{q:"Choose the correct word: She ___ to school every day.",o:["go","goes","going","gone"],a:1,d:"easy",e:"Third-person singular present takes -es."},
+{q:"Which sentence is correct?",o:["Their going home.","They're going home.","There going home.","Theyre going home."],a:1,d:"easy",e:"They're = they are."},
+{q:"Pick the correct plural of 'child'.",o:["childs","childes","children","childrens"],a:2,d:"easy",e:"Irregular plural."},
+{q:"Choose the correct article: ___ apple a day keeps the doctor away.",o:["A","An","The","No article"],a:1,d:"easy",e:"'An' precedes vowel sounds."},
+{q:"Which is a proper noun?",o:["city","London","river","teacher"],a:1,d:"easy",e:"Proper nouns name specific things."},
+{q:"Choose the right word: I have ___ books than you.",o:["less","fewer","few","lesser"],a:1,d:"easy",e:"'Fewer' for countable nouns."},
+{q:"Past tense of 'run' is:",o:["runned","ran","run","running"],a:1,d:"easy",e:"Irregular verb."},
+{q:"Which sentence ends correctly?",o:["Where are you going.","Where are you going?","Where are you going!,","Where are you going,"],a:1,d:"easy",e:"A direct question ends with ?"},
+{q:"Choose the correct pronoun: Give the book to ___.",o:["I","she and I","her and me","her and I"],a:2,d:"easy",e:"Object pronouns after 'to'."},
+{q:"'Quickly' in 'She ran quickly' is a(n):",o:["adjective","adverb","noun","verb"],a:1,d:"easy",e:"It modifies the verb 'ran'."},
+// medium
+{q:"Choose the correct form: Neither of the boys ___ ready.",o:["are","were","is","be"],a:2,d:"medium",e:"'Neither' is singular."},
+{q:"Which sentence uses a semicolon correctly?",o:["I like tea; and coffee.","I like tea; she likes coffee.","I like; tea she likes coffee.","I like tea; because it's warm."],a:1,d:"medium",e:"A semicolon joins two independent clauses."},
+{q:"Identify the correct sentence:",o:["Who's book is this?","Whose book is this?","Whos book is this?","Who book is this?"],a:1,d:"medium",e:"'Whose' shows possession."},
+{q:"'If I ___ you, I would apologise.' Choose the correct word.",o:["was","were","am","be"],a:1,d:"medium",e:"Subjunctive in hypotheticals."},
+{q:"Which is a dangling modifier?",o:["Walking home, I saw a fox.","Walking home, the fox ran past.","I saw a fox walking home.","While I walked home, a fox ran."],a:1,d:"medium",e:"The fox isn't the one walking home (in intent)."},
+{q:"Choose the correct word: The effect/affect — The medicine had a positive ___.",o:["affect","effect","affects","effected"],a:1,d:"medium",e:"'Effect' is the noun."},
+{q:"Which sentence is in the passive voice?",o:["The cat chased the mouse.","The mouse was chased by the cat.","The cat is chasing.","The mouse ran."],a:1,d:"medium",e:"Subject receives the action."},
+{q:"Choose the correct form: She has ___ finished her homework.",o:["already","all ready","allready","yet"],a:0,d:"medium",e:"'Already' = by now; 'all ready' = fully prepared."},
+{q:"Which is a complex sentence?",o:["I ran and he walked.","Although it rained, we played.","We played.","He ran; she walked."],a:1,d:"medium",e:"Contains a dependent clause."},
+{q:"Choose the correct tense: By next year, I ___ my degree.",o:["will finish","will have finished","finish","am finishing"],a:1,d:"medium",e:"Future perfect for completion before a future time."},
+{q:"Choose the correct sentence:",o:["Between you and I, it's secret.","Between you and me, it's secret.","Between me and you's secret.","Between I and you, it's secret."],a:1,d:"medium",e:"Object pronoun after a preposition."},
+{q:"A gerund is a verb form acting as a:",o:["verb","noun","adjective","adverb"],a:1,d:"medium",e:"E.g. 'Swimming is fun.'"},
+// hard
+{q:"Choose the correct sentence:",o:["Each of the players have a ball.","Each of the players has a ball.","Each of the players are having a ball.","Each players has a ball."],a:1,d:"hard",e:"'Each' takes a singular verb."},
+{q:"Identify the sentence with correct parallel structure:",o:["She likes hiking, to swim, and biking.","She likes hiking, swimming, and biking.","She likes to hike, swimming, and bike.","She likes hiking, to swim, and bike."],a:1,d:"hard",e:"Keep all items in the same form."},
+{q:"'Having finished the exam, the bell rang.' What's wrong?",o:["Tense error","Dangling participle","Missing comma","Nothing"],a:1,d:"hard",e:"Who finished? The bell can't."},
+{q:"Choose the correct relative pronoun: The man ___ I met was kind.",o:["who","whom","whose","which"],a:1,d:"hard",e:"'Whom' is the object of 'met' (who is also accepted informally)."},
+{q:"Which sentence uses the subjunctive mood?",o:["I suggest that he go.","I suggest that he goes.","He goes there.","He went there."],a:0,d:"hard",e:"Base form after verbs like suggest/demand."},
+{q:"Identify the error: 'The committee have made its decision.'",o:["committee","have","its","decision"],a:1,d:"hard",e:"Agreement: 'has' with 'its' (or 'their' with 'have')."},
+{q:"Which is a correct use of a colon?",o:["I need: milk, eggs.","I need three things: milk, eggs, and bread.","I need three: things milk.","I: need milk."],a:1,d:"hard",e:"Colon follows a complete clause."},
+{q:"The word 'which' in 'My car, which is red, is fast' begins a:",o:["restrictive clause","non-restrictive clause","noun phrase","prepositional phrase"],a:1,d:"hard",e:"Commas show it's extra information."},
+{q:"Choose the correct word: 'He is ___ intelligent than his brother.'",o:["more","most","much","very"],a:0,d:"hard",e:"Comparative with 'than'."},
+{q:"Which sentence contains a misplaced modifier?",o:["She nearly drove ten miles.","She drove nearly ten miles.","She drove ten miles.","She drove almost ten miles."],a:0,d:"hard",e:"'Nearly' should modify 'ten miles'."}
+];
+const $=id=>document.getElementById(id);
+const store={get:(k,d)=>{try{return JSON.parse(localStorage.getItem(k))??d}catch{return d}},set:(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v))}catch{}}};
+let users=store.get('gq_users',{}),cur=null,extra=store.get('gq_extra',[]),cq=null,answered=false,seen=new Set();
+const today=()=>new Date().toISOString().slice(0,10);
+function norm(x){return {q:x.q,o:x.options||x.o,a:x.answer??x.a,d:(x.difficulty||x.d||'medium').toLowerCase(),e:x.explanation||x.e||''}}
+function valid(x){return x&&x.q&&Array.isArray(x.o)&&x.o.length>1&&Number.isInteger(x.a)&&x.o[x.a]!==undefined}
+function bank(){return BUILTIN.concat(extra.map(norm)).filter(valid)}
+function save(){store.set('gq_users',users)}
+function hp(x){let h=5381;for(const c of 'gq|'+x)h=((h*33)^c.charCodeAt(0))>>>0;return String(h)}
+function login(name,pin){
+  name=name.trim();$('loginMsg').textContent='';
+  if(!name||!/^\d{4}$/.test(pin)){$('loginMsg').textContent=' Enter a name and a 4-digit PIN.';return}
+  let u=users[name];
+  if(u&&u.pin&&u.pin!==hp(name+pin)){$('loginMsg').textContent=' Wrong PIN.';return}
+  if(!u)u=users[name]={days:[],ok:0,bad:0};
+  u.pin=hp(name+pin);cur=name;
+  if(!u.days.includes(today()))u.days.push(today());save();$('upin').value='';render();
+}
+function streak(u){let s=0,d=new Date();while(u.days.includes(d.toISOString().slice(0,10))){s++;d.setDate(d.getDate()-1)}return s}
+function render(){
+  const on=!!cur;
+  $('login').classList.toggle('hide',on);['statsCard','quizCard','boardCard'].forEach(i=>$(i).classList.toggle('hide',!on));
+  if(on){const u=users[cur],t=u.ok+u.bad;
+    $('sDays').textContent=u.days.length;$('sOk').textContent=u.ok;$('sBad').textContent=u.bad;
+    $('sAcc').textContent=t?Math.round(u.ok/t*100)+'%':'–';
+    $('streak').textContent=`Hi ${cur}! Current streak: ${streak(u)} day(s) · Question bank: ${bank().length}`;}
+  const tb=$('board').tBodies[0];tb.innerHTML='';
+  Object.entries(users).sort((a,b)=>b[1].ok-a[1].ok).forEach(([n,u])=>{const t=u.ok+u.bad,r=tb.insertRow();
+    [n,u.days.length,u.ok,u.bad,t?Math.round(u.ok/t*100)+'%':'–'].forEach(v=>r.insertCell().textContent=v)});
+}
+let round=null,tmr=null,tLeft=0,t0=0;
+const esc=x=>String(x).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+async function nextQ(){
+  clearInterval(tmr);
+  if(!round){round={n:+$('rlen').value,i:0,ok:0,miss:[],times:[]};seen.clear();$('sumCard').classList.add('hide')}
+  if(round.i>=round.n){endRound();return}
+  const mode=$('mode').value,diff=$('diff').value;let pool=null;
+  $('msg').firstChild.textContent='';
+  if(mode==='online'){
+    const url=store.get('gq_api','');
+    if(!url)$('msg').firstChild.textContent='No API URL set – using offline questions.';
+    else try{const r=await fetch(url);pool=(await r.json()).map(norm).filter(valid)}
+    catch{$('msg').firstChild.textContent='API unreachable – using offline questions.'}
+  }
+  pool=(pool&&pool.length?pool:bank()).filter(x=>diff==='all'||x.d===diff);
+  if(!pool.length){$('qText').textContent='No questions for this difficulty.';round=null;return}
+  let fresh=pool.filter(x=>!seen.has(x.q));if(!fresh.length){seen.clear();fresh=pool}
+  cq=fresh[Math.floor(Math.random()*fresh.length)];seen.add(cq.q);answered=false;round.i++;
+  $('qNum').textContent=`Question ${round.i} / ${round.n}`;$('barI').style.width=((round.i-1)/round.n*100)+'%';
+  $('qTag').textContent=cq.d;$('qText').textContent=cq.q;$('exp').textContent='';
+  const box=$('opts');box.innerHTML='';
+  cq.o.forEach((t,i)=>{const b=document.createElement('button');b.className='opt';b.textContent=t;b.onclick=()=>resolve(i);box.appendChild(b)});
+  $('nextBtn').textContent='Skip';
+  t0=Date.now();const lim=+$('tlim').value;
+  if(lim){tLeft=lim;$('timer').textContent='⏱ '+tLeft+'s';tmr=setInterval(()=>{tLeft--;$('timer').textContent='⏱ '+tLeft+'s';if(tLeft<=0)resolve(-2)},1000)}
+  else $('timer').textContent='';
+}
+function resolve(i){
+  if(answered||!cq)return;answered=true;clearInterval(tmr);
+  const u=users[cur],ok=i===cq.a;ok?u.ok++:u.bad++;save();
+  round.times.push((Date.now()-t0)/1000);
+  if(ok)round.ok++;else round.miss.push({q:cq.q,yours:i>=0?cq.o[i]:(i===-2?'Time up':'Skipped'),right:cq.o[cq.a]});
+  [...$('opts').children].forEach((b,j)=>{if(j===cq.a)b.classList.add('ok');else if(j===i)b.classList.add('bad')});
+  $('exp').textContent=(ok?'✅ Correct! ':i===-2?"⏰ Time's up. ":'❌ Not quite. ')+cq.e;
+  $('barI').style.width=(round.i/round.n*100)+'%';
+  $('nextBtn').textContent=round.i>=round.n?'Finish round':'Next →';render();
+}
+function endRound(){
+  const r=round;round=null;cq=null;
+  const pct=Math.round(r.ok/r.n*100),avg=r.times.length?(r.times.reduce((a,b)=>a+b,0)/r.times.length).toFixed(1):0;
+  $('qNum').textContent='Round complete';$('timer').textContent='';$('qTag').textContent='';
+  $('qText').textContent='Nice work! Your summary is below.';$('opts').innerHTML='';$('exp').textContent='';$('nextBtn').textContent='Start new round';
+  $('sumBody').innerHTML=`<div class="stats" style="margin:12px 0"><div class="stat"><b>${r.ok}/${r.n}</b><span>Score</span></div><div class="stat"><b>${pct}%</b><span>Accuracy</span></div><div class="stat"><b>${avg}s</b><span>Avg time</span></div><div class="stat"><b>${r.n-r.ok}</b><span>Missed</span></div></div>`+
+    (r.miss.length?'<b>Review your misses</b>'+r.miss.map(m=>`<p>• ${esc(m.q)}<br><small>You: ${esc(m.yours)} · Correct: ${esc(m.right)}</small></p>`).join(''):'<p>🎉 Perfect round!</p>');
+  $('sumCard').classList.remove('hide');
+}
+const doLogin=()=>login($('uname').value,$('upin').value);$('loginBtn').onclick=doLogin;
+$('uname').onkeydown=$('upin').onkeydown=e=>{if(e.key==='Enter')doLogin()};
+$('outBtn').onclick=()=>{cur=null;round=null;cq=null;clearInterval(tmr);$('setCard').classList.add('hide');$('sumCard').classList.add('hide');render()};
+$('nextBtn').onclick=()=>{if(round&&cq&&!answered)resolve(-1);else nextQ()};
+$('setBtn').onclick=()=>$('setCard').classList.toggle('hide');
+$('addBtn').onclick=()=>addJSON($('jsonIn').value);
+$('file').onchange=e=>{const f=e.target.files[0];if(f)f.text().then(addJSON)};
+$('clearBtn').onclick=()=>{extra=[];store.set('gq_extra',extra);render()};
+$('saveApi').onclick=()=>{store.set('gq_api',$('apiUrl').value.trim());$('msg').firstChild.textContent='API URL saved.'};
+function addJSON(txt){
+  try{const arr=JSON.parse(txt).map(norm).filter(valid);extra=extra.concat(arr);store.set('gq_extra',extra);
+    $('msg').firstChild.textContent=`Added ${arr.length} question(s).`;$('jsonIn').value='';render()}
+  catch{$('msg').firstChild.textContent='Invalid JSON.'}
+}
+$('apiUrl').value=store.get('gq_api','');
+
+render();
+</script>
+</body>
+</html>

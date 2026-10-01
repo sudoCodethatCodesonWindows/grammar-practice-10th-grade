@@ -1,0 +1,242 @@
+[
+ {
+  "q": "___ is my best friend.",
+  "options": [
+   "Her",
+   "Herself",
+   "Hers",
+   "She"
+  ],
+  "answer": 3,
+  "difficulty": "easy",
+  "explanation": "Subject pronoun."
+ },
+ {
+  "q": "This book is ___.",
+  "options": [
+   "me",
+   "mine",
+   "my",
+   "I"
+  ],
+  "answer": 1,
+  "difficulty": "easy",
+  "explanation": "Possessive pronoun."
+ },
+ {
+  "q": "Give it to ___.",
+  "options": [
+   "he",
+   "him",
+   "I",
+   "they"
+  ],
+  "answer": 1,
+  "difficulty": "easy",
+  "explanation": "Object pronoun after 'to'."
+ },
+ {
+  "q": "The cat licked ___.",
+  "options": [
+   "itselves",
+   "itself",
+   "themself",
+   "it's self"
+  ],
+  "answer": 1,
+  "difficulty": "easy",
+  "explanation": "Reflexive pronoun."
+ },
+ {
+  "q": "Is this ___ pen?",
+  "options": [
+   "you're",
+   "yours",
+   "your",
+   "you"
+  ],
+  "answer": 2,
+  "difficulty": "easy",
+  "explanation": "Possessive adjective."
+ },
+ {
+  "q": "Between you and ___, it was a mistake.",
+  "options": [
+   "me",
+   "myself",
+   "I",
+   "mine"
+  ],
+  "answer": 0,
+  "difficulty": "medium",
+  "explanation": "Object pronoun after a preposition."
+ },
+ {
+  "q": "She and ___ went to the market.",
+  "options": [
+   "myself",
+   "me",
+   "I",
+   "mine"
+  ],
+  "answer": 2,
+  "difficulty": "medium",
+  "explanation": "Subject pronoun."
+ },
+ {
+  "q": "The prize was won by ___ and Raj.",
+  "options": [
+   "herself",
+   "she",
+   "her",
+   "hers"
+  ],
+  "answer": 2,
+  "difficulty": "medium",
+  "explanation": "Object of 'by'."
+ },
+ {
+  "q": "The students did ___ homework.",
+  "options": [
+   "their",
+   "they're",
+   "them",
+   "there"
+  ],
+  "answer": 0,
+  "difficulty": "medium",
+  "explanation": "Possessive adjective."
+ },
+ {
+  "q": "I hurt ___ while cooking.",
+  "options": [
+   "myself",
+   "I",
+   "me",
+   "mine"
+  ],
+  "answer": 0,
+  "difficulty": "medium",
+  "explanation": "Reflexive: subject = object."
+ },
+ {
+  "q": "To ___ should I address the letter?",
+  "options": [
+   "whose",
+   "who",
+   "whom",
+   "which"
+  ],
+  "answer": 2,
+  "difficulty": "hard",
+  "explanation": "Object of 'to'."
+ },
+ {
+  "q": "It was ___ who called you.",
+  "options": [
+   "his",
+   "he",
+   "him",
+   "himself"
+  ],
+  "answer": 1,
+  "difficulty": "hard",
+  "explanation": "Subject complement (formal)."
+ },
+ {
+  "q": "He is the man ___ car was stolen.",
+  "options": [
+   "who's",
+   "which",
+   "whose",
+   "whom"
+  ],
+  "answer": 2,
+  "difficulty": "hard",
+  "explanation": "Possessive relative."
+ },
+ {
+  "q": "The teacher gave Anil and ___ extra work.",
+  "options": [
+   "mine",
+   "myself",
+   "me",
+   "I"
+  ],
+  "answer": 2,
+  "difficulty": "hard",
+  "explanation": "Object pronoun."
+ },
+ {
+  "q": "___ of the two is correct?",
+  "options": [
+   "Which",
+   "Who",
+   "Whom",
+   "What"
+  ],
+  "answer": 0,
+  "difficulty": "hard",
+  "explanation": "Choice from a limited set."
+ },
+ {
+  "q": "The reason ___ he left is unclear.",
+  "options": [
+   "whom",
+   "why",
+   "whose",
+   "which of"
+  ],
+  "answer": 1,
+  "difficulty": "super-hard",
+  "explanation": "'Why' after 'reason'."
+ },
+ {
+  "q": "He is a man ___ I believe to be honest.",
+  "options": [
+   "whose",
+   "which",
+   "who",
+   "whom"
+  ],
+  "answer": 3,
+  "difficulty": "super-hard",
+  "explanation": "Subject of an infinitive takes object case."
+ },
+ {
+  "q": "The winner will be ___ scores highest.",
+  "options": [
+   "whomever",
+   "whoever",
+   "whom",
+   "whichever one"
+  ],
+  "answer": 1,
+  "difficulty": "super-hard",
+  "explanation": "'Whoever' is subject of 'scores'."
+ },
+ {
+  "q": "We will invite ___ you recommend.",
+  "options": [
+   "who's",
+   "whoever",
+   "whose",
+   "whomever"
+  ],
+  "answer": 3,
+  "difficulty": "super-hard",
+  "explanation": "'Whomever' is object of 'recommend'."
+ },
+ {
+  "q": "Please contact Priya or ___ for details.",
+  "options": [
+   "me",
+   "mine",
+   "myself",
+   "I"
+  ],
+  "answer": 0,
+  "difficulty": "super-hard",
+  "explanation": "Object of 'contact'."
+ }
+]
